@@ -119,6 +119,7 @@
     <instance objName="obj_ground" x="0" y="192" name="inst_67C036FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="0" y="128" name="inst_64E3D02C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="0" y="64" name="inst_5C45E1CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_human" x="1088" y="448" name="inst_054C6CE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="0" y="64" w="64" h="64" xo="256" yo="320" id="10000041" name="inst_CD42FCF5" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
