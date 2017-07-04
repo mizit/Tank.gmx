@@ -75,6 +75,8 @@ if (goal_scale &lt; current_scale)
 
 view_wview = current_scale * base_width;
 view_hview = current_scale * base_height;
+view_hborder = current_scale * base_width / 2;
+view_vborder = current_scale * base_height / 2;
 </string>
           </argument>
         </arguments>
