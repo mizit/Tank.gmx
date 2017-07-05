@@ -49,6 +49,9 @@
     <sprites name="monsters">
       <sprites name="carner">
         <sprite>sprites\s_carner_walk</sprite>
+        <sprite>sprites\s_carner_mid</sprite>
+        <sprite>sprites\s_carner_tail</sprite>
+        <sprite>sprites\s_carner_attack</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -96,6 +99,8 @@
     <objects name="monsters">
       <objects name="carner">
         <object>objects\obj_carner</object>
+        <object>objects\obj_carner_mid</object>
+        <object>objects\obj_carner_tail</object>
       </objects>
       <object>objects\obj_monster</object>
     </objects>

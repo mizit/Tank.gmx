@@ -651,8 +651,10 @@
     <option_xbone_title_id></option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="1">
+    <constants number="3">
       <constant name="LEFT">1</constant>
+      <constant name="WALK">0</constant>
+      <constant name="ATTACK">1</constant>
     </constants>
   </ConfigConstants>
 </Config>

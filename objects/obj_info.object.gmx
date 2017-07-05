@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_colour(c_green);
-draw_text(100, 100, obj_carner.phy_speed);
+with (obj_carner)
+{
+    draw_text(100, 100, distance_to_point(obj_gg.x, obj_gg.y));
+}
 </string>
           </argument>
         </arguments>

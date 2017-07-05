@@ -17,7 +17,41 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="drawing.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4227">
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke:#372b1e;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="ellipse4229"
+         cx="477.29709"
+         cy="207.3696"
+         rx="96.469574"
+         ry="71.215752" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4265">
+      <ellipse
+         style="fill:#815e58;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="ellipse4267"
+         cx="257.14285"
+         cy="223.96935"
+         rx="71.428574"
+         ry="54.82143" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4269">
+      <ellipse
+         style="fill:#815e58;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="ellipse4271"
+         cx="257.14285"
+         cy="223.96935"
+         rx="71.428574"
+         ry="54.82143" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,12 +59,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="-1.7833185"
-     inkscape:cy="639.0527"
+     inkscape:zoom="1.4"
+     inkscape:cx="173.52235"
+     inkscape:cy="778.69738"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
-     showgrid="true"
+     showgrid="false"
      showguides="false"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
@@ -49,14 +83,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Задний план">
+     inkscape:label="Задний план"
+     style="display:inline">
     <path
        style="fill:#bf976a;fill-opacity:1;stroke:#bf976a;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 92.529244,409.443 c -5.358065,4.30271 -22.650839,2.18187 -22.744843,-4.68933 -0.094,-6.8712 17.170593,-8.22464 22.707113,-4.59675 2.999742,1.96566 2.636776,7.19896 0.03772,9.28608 z"
@@ -71,6 +106,334 @@
        id="path4140"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssss"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 641.87314,368.43363 c -25,25 -40,35 -65,60 -4.24918,4.24918 -14.24918,-10.75082 -10,-15 20,-20 45,-40 70,-55 3.19569,-1.91741 7.63523,7.36477 5,10 z"
+       id="path4157"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_forearm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 687.13312,404.54531 c 0,0 12.6542,-32.56228 13.18147,-50.50508 0.61925,-21.07275 -19.61004,-54.85206 -19.61004,-54.85206 0.52438,21.64643 -1.08262,40.41708 -2.85714,62.5 l 9.28571,-17.14286 -5.35714,38.92857 8.92857,-17.5 z"
+       id="path4153"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccccc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_arm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 581.87314,418.43363 c -5,-10 -20,-25 -30,-30 -5.37484,-2.68742 -14.24918,10.75082 -10,15 10,10 20,20 30,25 4.21637,2.10818 12.10819,-5.78363 10,-10 z"
+       id="path4159"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_shoulder.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="display:inline;fill:#815e58;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 501.73335,417.18363 c 5.98138,-11.91641 6.10108,-28.14443 0,-40 -6.56045,-12.74818 -20.98205,-21.99126 -35,-25 -24.92739,-5.35028 -56.35148,-2.38483 -75,15 -16.30679,15.20178 -18.8664,32.67909 -35,40 -12.14178,5.50956 -27.23878,3.86379 -40,0 -11.50282,-3.48277 -30.50508,-24.79822 -30.50508,-24.79822 0,0 -2.45752,33.97452 5.50508,44.79822 11.93368,16.22168 34.86185,24.89712 55,25 39.49492,0.20178 75.75761,-0.20177 115.46561,-0.1781 16.74935,0.01 32.02057,-19.85249 39.53439,-34.8219 z"
+       id="path4155-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssscssss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:none;fill-opacity:0.35294118;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 498.57143,421.64792 -7.14286,-19.64286 -10.35714,21.42857 -8.92857,-17.85714 -11.78572,13.92857 -20.71428,-9.64285 c 0,0 -47.77294,11.26075 -72.14286,12.14285 -20.19579,0.73101 -43.17848,4.92986 -60.35714,-5.71428 -11.31681,-7.01206 -21.07143,-33.92857 -21.07143,-33.92857"
+       id="path4174"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccssc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 444.16211 349.75586 C 424.71466 349.61939 404.71026 354.66481 391.30664 367.16016 C 374.99985 382.36194 372.44024 399.83925 356.30664 407.16016 C 344.16486 412.66972 329.06786 411.02395 316.30664 407.16016 C 305.32295 403.83457 287.68973 384.4563 286.10352 382.69531 L 286.08984 383.05273 C 286.08984 383.05273 295.8453 409.96841 307.16211 416.98047 C 324.34077 427.62461 347.32374 423.42632 367.51953 422.69531 C 391.88944 421.81321 439.66211 410.55273 439.66211 410.55273 L 460.37695 420.19531 L 472.16211 406.26758 L 481.08984 424.12305 L 491.44727 402.69531 L 498.55078 422.23047 C 499.55219 420.50518 500.48327 418.80052 501.30664 417.16016 C 507.28802 405.24375 507.40772 389.01573 501.30664 377.16016 C 494.74619 364.41198 480.32459 355.1689 466.30664 352.16016 C 459.29581 350.65539 451.77198 349.80926 444.16211 349.75586 z "
+       id="path4155"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 312.85714,249.50506 90,-0.35714 c 9.74359,-18.20008 -4.21027,-64.47807 -23.21428,-64.64286 -22.41764,2.49406 -51.49684,1.60455 -65.35715,19.64286 -9.21642,11.99458 -14.71543,33.62982 -1.42857,45.35714 z"
+       id="path4233"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\middle_body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#815e58;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 404.06102,216.96605 -99.50003,11.61675 c -0.29103,14.49275 8.33376,20.45559 8.33376,20.45559 l 89.90358,-0.25254 c 0,0 6.25018,-6.02917 1.26269,-31.8198 z"
+       id="path4237"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\middle_body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 318.21429,249.50506 267.5,249.8622 c -22.68262,0.15974 -26.07143,-62.85714 -26.07143,-62.85714 0,0 21.74637,19.42656 35,22.5 15.59747,3.61697 39.52407,-11.39431 50,0.71429 10.49705,12.133 11.23525,29.1915 -8.21428,39.28571 z"
+       id="path4235"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscssc"
+       clip-path="url(#clipPath4269)"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\tail.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <g
+       id="g4216"
+       clip-path="url(#clipPath4227)"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\small_body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61">
+      <path
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         sodipodi:nodetypes="sssssscssss"
+         inkscape:connector-curvature="0"
+         id="path4155-9-9"
+         d="m 512.7534,213.96004 c 5.98138,-11.91641 6.10108,-28.14443 0,-40 -6.56045,-12.74818 -20.98205,-21.99126 -35,-25 -24.92739,-5.35028 -56.35148,-2.38483 -75,15 -16.30679,15.20178 -18.8664,32.67909 -35,40 -12.14178,5.50956 -27.23878,3.86379 -40,0 -11.50282,-3.48277 -30.50508,-24.79822 -30.50508,-24.79822 0,0 -2.45752,33.97452 5.50508,44.79822 11.93368,16.22168 34.86185,24.89712 55,25 39.49492,0.20178 75.75761,-0.20177 115.46561,-0.1781 16.74935,0.01 32.02057,-19.85249 39.53439,-34.8219 z"
+         style="display:inline;fill:#815e58;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         sodipodi:nodetypes="ccccccssc"
+         inkscape:connector-curvature="0"
+         id="path4174-8"
+         d="m 509.59148,218.42433 -7.14286,-19.64286 -10.35714,21.42857 -8.92857,-17.85714 -11.78572,13.92857 -20.71428,-9.64285 c 0,0 -47.77294,11.26075 -72.14286,12.14285 -20.19579,0.73101 -43.17848,4.92986 -60.35714,-5.71428 -11.31681,-7.01206 -21.07143,-33.92857 -21.07143,-33.92857"
+         style="display:inline;fill:none;fill-opacity:0.35294118;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         id="path4155-3"
+         d="m 455.18216,146.53227 c -19.44745,-0.13647 -39.45185,4.90895 -52.85547,17.4043 -16.30679,15.20178 -18.8664,32.67909 -35,40 -12.14178,5.50956 -27.23878,3.86379 -40,0 -10.98369,-3.32559 -28.61691,-22.70386 -30.20312,-24.46485 l -0.0137,0.35742 c 0,0 9.75546,26.91568 21.07227,33.92774 17.17866,10.64414 40.16163,6.44585 60.35742,5.71484 24.36991,-0.8821 72.14258,-12.14258 72.14258,-12.14258 l 20.71484,9.64258 11.78516,-13.92773 8.92773,17.85547 10.35743,-21.42774 7.10351,19.53516 c 1.00141,-1.72529 1.93249,-3.42995 2.75586,-5.07031 5.98138,-11.91641 6.10108,-28.14443 0,-40 -6.56045,-12.74818 -20.98205,-21.99126 -35,-25 -7.01083,-1.50477 -14.53466,-2.3509 -22.14453,-2.4043 z"
+         style="display:inline;fill:#076400;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         sodipodi:nodetypes="cscsc"
+         inkscape:connector-curvature="0"
+         id="path4208-9"
+         d="m 388.87719,201.63862 c 0,0 9.21496,-25.75956 20,-33.92858 14.29721,-10.82928 51.78571,-13.57142 51.78571,-13.57142 0,0 -28.92857,12.61905 -40.89285,20.53571 -11.96429,7.91667 -30.89286,26.96429 -30.89286,26.96429 z"
+         style="display:inline;fill:#ffffff;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         ry="3.9285715"
+         rx="3.75"
+         cy="175.56717"
+         cx="480.48434"
+         id="path4210-8"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         ry="3.9285715"
+         rx="3.75"
+         cy="183.78148"
+         cx="461.73434"
+         id="path4210-6-2"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         ry="3.9285715"
+         rx="3.75"
+         cy="165.21002"
+         cx="460.6629"
+         id="path4210-2-5"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         ry="3.9285715"
+         rx="3.75"
+         cy="189.49577"
+         cx="476.3772"
+         id="path4210-1-4"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="61"
+         inkscape:export-xdpi="61"
+         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+         ry="3.9285715"
+         rx="3.75"
+         cy="178.78148"
+         cx="496.3772"
+         id="path4210-4-3"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#815e58;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 332.14286,224.8622 c 0.75828,17.7523 -13.57143,24.28572 -13.57143,24.28572 l -55.35714,0.71428 c 0,0 -11.60422,3.937 -20.39862,-48.44516 0,0 18.34509,21.23183 31.82719,25.94516 18.54784,6.48431 57.5,-2.5 57.5,-2.5 z"
+       id="path4261"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccsss"
+       clip-path="url(#clipPath4265)"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\tail.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Блики"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 684.13611,310.09018 c 0,0 5.50295,22.01979 6.9448,29.7995 1.75726,9.48157 3.40029,20.07742 3.40029,20.07742 0,0 2.98258,-12.42686 1.74611,-20.44879 -1.51715,-9.84293 -12.0912,-29.42813 -12.0912,-29.42813 z"
+       id="path4162"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscsc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_arm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#000000;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 681.23192,337.23803 c -1.5394,3.24401 -2.27284,20.96067 -2.27284,20.96067 0,0 6.55897,-9.64825 6.06091,-15.02602 -0.21643,-2.33685 -2.78194,-8.05489 -3.78807,-5.93465 z"
+       id="path4164"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_arm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#000000;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 688.11359,351.75897 c -2.98278,2.72414 -4.41942,26.39024 -4.41942,26.39024 0,0 5.32986,-8.54177 6.06092,-13.38452 0.65225,-4.32068 1.58501,-15.95247 -1.6415,-13.00572 z"
+       id="path4166"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_arm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#000000;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 688.42926,398.92047 c 0,0 2.13628,-27.66506 3.6618,-28.66308 1.52552,-0.99802 2.85397,-0.85017 3.91434,1.89404 1.06037,2.74421 -7.57614,26.76904 -7.57614,26.76904 z"
+       id="path4168"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_arm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 583.57143,403.0765 42.85714,-35 c 0,0 -11.94285,15.97359 -19.64285,22.14285 -6.90324,5.53089 -23.21429,12.85715 -23.21429,12.85715 z"
+       id="path4170"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_forearm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 553.19637,393.73938 20.75011,22.6028 c 0,0 -11.57997,-4.1092 -15.42784,-8.55605 -3.27634,-3.78635 -5.32227,-14.04675 -5.32227,-14.04675 z"
+       id="path4172"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\right_shoulder.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.35294118;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 377.85714,404.86221 c 0,0 9.21496,-25.75956 20,-33.92858 14.29721,-10.82928 51.78571,-13.57142 51.78571,-13.57142 0,0 -28.92857,12.61905 -40.89285,20.53571 -11.96429,7.91667 -30.89286,26.96429 -30.89286,26.96429 z"
+       id="path4208"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscsc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4210"
+       cx="469.46429"
+       cy="378.79077"
+       rx="3.75"
+       ry="3.9285715"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <ellipse
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4210-6"
+       cx="450.71429"
+       cy="387.00507"
+       rx="3.75"
+       ry="3.9285715"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <ellipse
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4210-2"
+       cx="449.64285"
+       cy="368.43362"
+       rx="3.75"
+       ry="3.9285715"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <ellipse
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4210-1"
+       cx="465.35715"
+       cy="392.71936"
+       rx="3.75"
+       ry="3.9285715"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <ellipse
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4210-4"
+       cx="485.35715"
+       cy="382.00507"
+       rx="3.75"
+       ry="3.9285715"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\body.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="display:inline;fill:#053c02;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 657.40144,527.50061 c -25.00001,25 -40.00001,35 -65.00001,60 -4.24918,4.24918 -14.24918,-10.75082 -10,-15 20,-20 45,-40 70,-55 3.19569,-1.91741 7.63524,7.36477 5.00001,10 z"
+       id="path4157-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\left_forearm.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="display:inline;fill:#053c02;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 656.94713,613.61228 c 0,0 12.6542,-32.56227 13.18147,-50.50507 0.61925,-21.07275 -19.61005,-54.85206 -19.61005,-54.85206 0.52438,21.64643 -1.08262,40.41708 -2.85714,62.5 l 9.28572,-17.14286 -5.35715,38.92857 8.92858,-17.5 z"
+       id="path4153-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccccc"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\left_fist.png"
+       inkscape:export-xdpi="61"
+       inkscape:export-ydpi="61" />
+    <path
+       style="display:inline;fill:#053c02;fill-opacity:1;stroke:#06350b;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 597.40143,577.50061 c -5,-10 -20,-25 -30,-30 -5.37484,-2.68742 -14.24918,10.75082 -10,15 10,10 20,20 30,25 4.21637,2.10818 12.10819,-5.78363 10,-10 z"
+       id="path4159-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\monsters\Carner\left_shoulder.png"
        inkscape:export-xdpi="61"
        inkscape:export-ydpi="61" />
   </g>

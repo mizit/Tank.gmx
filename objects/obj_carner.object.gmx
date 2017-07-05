@@ -26,7 +26,31 @@
           <argument>
             <kind>1</kind>
             <string>event_inherited();
+//phy_fixed_rotation = 1;
 my_power = 512;
+middle = noone;
+m_offset = 30;
+tail = noone;
+t_offset = 57;
+if (obj_gg.x &lt; x)
+{
+    middle = instance_create(x + m_offset, y, obj_carner_mid);
+    physics_joint_distance_create(id, middle, x, y, middle.x, middle.y, 0);
+    tail = instance_create(x + t_offset, y, obj_carner_tail);
+    physics_joint_distance_create(middle, tail, middle.x, middle.y, tail.x, tail.y, 0);
+}
+else
+{
+    middle = instance_create(x - m_offset, y, obj_carner_mid);
+    physics_joint_distance_create(id, middle, x, y, middle.x, middle.y, 0);
+    tail = instance_create(x - t_offset, y, obj_carner_tail);
+    physics_joint_distance_create(middle, tail, middle.x, middle.y, tail.x, tail.y, 0);
+}
+middle.owner = id;
+tail.owner = middle;
+
+behavior = WALK;
+attack_distance = 170;
 </string>
           </argument>
         </arguments>
@@ -52,16 +76,58 @@ my_power = 512;
             <string>event_inherited();
 if (obj_gg.x &lt; x)
 {
-    physics_apply_angular_impulse(-my_power);
     status |= LEFT;
-    image_speed = -1 / (3 / phy_speed) * sign(phy_speed_x);
 }
 else
 {
-    physics_apply_angular_impulse(my_power);
     status &amp;=~ LEFT;
-    image_speed = 1 / (3 / phy_speed) * sign(phy_speed_x);
 }
+switch (behavior)
+{
+    case WALK:
+    {
+        if (obj_gg.x &lt; x)
+        {
+            physics_apply_angular_impulse(-my_power);
+            //physics_apply_local_impulse(0, 0, -my_power, 0);
+            
+            image_speed = -1 / (3 / phy_speed) * sign(phy_speed_x);
+            if (middle.x &lt; x) || (tail.x &lt; x)
+            {
+                physics_apply_local_impulse(0, 0, -45, -45);
+            }
+        }
+        else
+        {
+            physics_apply_angular_impulse(my_power);
+            //physics_apply_local_impulse(0, 0, my_power, 0);
+            
+            image_speed = 1 / (3 / phy_speed) * sign(phy_speed_x);
+            if (middle.x &gt; x)|| (tail.x &gt; x)
+            {
+                physics_apply_local_impulse(0, 0, 45, -45);
+            }
+        }
+        if (point_distance(x, y, obj_gg.x, obj_gg.y) &lt;= attack_distance)
+        {
+            behavior = ATTACK;
+            sprite_index = s_carner_attack;
+            image_speed = 1;
+        }
+        break;
+    }
+    case ATTACK:
+    {
+        if (point_distance(x, y, obj_gg.x, obj_gg.y) &gt; attack_distance) &amp;&amp; (image_index &gt; image_number - 2)
+        {
+            behavior = WALK;
+            sprite_index = s_carner_walk;
+        }
+        break;
+    }
+}
+middle.status = status;
+tail.status = status;
 
 </string>
           </argument>
@@ -81,7 +147,7 @@ else
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>60,28</point>
-    <point>20,60</point>
+    <point>24,28</point>
+    <point>16,60</point>
   </PhysicsShapePoints>
 </object>
