@@ -54,6 +54,7 @@
         <sprite>sprites\s_carner_attack</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\s_test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -71,6 +72,7 @@
       <object>objects\obj_pillar</object>
     </objects>
     <objects name="tank">
+      <object>objects\obj_bullet_old</object>
       <object>objects\obj_bullet</object>
       <objects name="tank_first">
         <object>objects\obj_wheel</object>
@@ -88,6 +90,7 @@
         <object>objects\obj_room_med</object>
       </objects>
       <object>objects\obj_gg</object>
+      <object>objects\obj_player</object>
     </objects>
     <objects name="human">
       <object>objects\obj_human</object>
@@ -104,6 +107,7 @@
       </objects>
       <object>objects\obj_monster</object>
     </objects>
+    <object>objects\obj_test_fire</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

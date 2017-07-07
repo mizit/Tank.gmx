@@ -3,7 +3,7 @@
   <spriteName>s_carner_walk</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>obj_monster</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -51,6 +51,9 @@ tail.owner = middle;
 
 behavior = WALK;
 attack_distance = 170;
+attack_x = 50;
+attack_y = -30;
+attack_power = 2000;
 </string>
           </argument>
         </arguments>
@@ -122,6 +125,25 @@ switch (behavior)
         {
             behavior = WALK;
             sprite_index = s_carner_walk;
+        }
+        var curr_x_off;
+        if (status &amp; LEFT)
+        {
+            curr_x_off = -attack_x;
+        }
+        else
+        {
+            curr_x_off = attack_x;
+        }
+        if ((image_index &gt; 3) &amp;&amp; (image_index &lt; 5) &amp;&amp; 
+        collision_rectangle(x, y, x + curr_x_off, y + attack_y, obj_player, 1, 1))
+        {
+            with (obj_gg)
+            {
+                var dir = point_direction(other.x, other.y, x, y);
+                physics_apply_impulse(other.x + curr_x_off, other.y, 
+                lengthdir_x(other.attack_power, dir), lengthdir_y(other.attack_power, dir));
+            }
         }
         break;
     }

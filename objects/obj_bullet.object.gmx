@@ -3,11 +3,39 @@
   <spriteName>s_bullet</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-150</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>speed = 50;
+gravity = 1.5;
+
+track_size = 30;
+track_x = ds_list_create();
+track_y = ds_list_create();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,7 +53,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>physics_apply_force(x, y, 0, 150);
+            <string>phy_position_x += lengthdir_x(speed, direction);
+phy_position_y += lengthdir_y(speed, direction);
+motion_add(270, gravity);
+ds_list_add(track_x, x);
+ds_list_add(track_y, y);
+if (ds_list_size(track_x) &gt; track_size)
+{
+    ds_list_delete(track_x, 0);
+    ds_list_delete(track_y, 0);
+}
 </string>
           </argument>
         </arguments>
@@ -48,13 +85,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//execute
+            <string>instance_destroy();
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_ground">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -71,7 +108,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//execute
+            <string>draw_self();
+for (var i = 0; i &lt; ds_list_size(track_x) - 1; i++)
+{
+    draw_set_alpha(i / track_size);
+    draw_line(track_x[| i], track_y[| i], track_x[| i + 1], track_y[| i + 1]);
+}
+draw_set_alpha(1);
+if (ds_list_size(track_x) &gt; 1)
+{
+    draw_line(track_x[| i], track_y[| i], phy_position_x, phy_position_y);
+}
 </string>
           </argument>
         </arguments>
@@ -79,14 +126,14 @@
     </event>
   </events>
   <PhysicsObject>-1</PhysicsObject>
-  <PhysicsObjectSensor>0</PhysicsObjectSensor>
+  <PhysicsObjectSensor>-1</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
-  <PhysicsObjectDensity>0.100000001490116</PhysicsObjectDensity>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
-  <PhysicsObjectGroup>5</PhysicsObjectGroup>
-  <PhysicsObjectLinearDamping>0.00999999977648258</PhysicsObjectLinearDamping>
+  <PhysicsObjectGroup>0</PhysicsObjectGroup>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
-  <PhysicsObjectFriction>5</PhysicsObjectFriction>
+  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
