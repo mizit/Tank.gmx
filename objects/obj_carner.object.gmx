@@ -28,6 +28,16 @@
             <string>event_inherited();
 //phy_fixed_rotation = 1;
 my_power = 512;
+
+behavior = WALK;
+attack_distance = 170;
+attack_x = 50;
+attack_y = -30;
+attack_power = 2000;
+
+hp = 30;
+
+
 middle = noone;
 m_offset = 30;
 tail = noone;
@@ -49,11 +59,8 @@ else
 middle.owner = id;
 tail.owner = middle;
 
-behavior = WALK;
-attack_distance = 170;
-attack_x = 50;
-attack_y = -30;
-attack_power = 2000;
+stun_time = 30;
+stun_counter = 0;
 </string>
           </argument>
         </arguments>
@@ -92,8 +99,6 @@ switch (behavior)
         if (obj_gg.x &lt; x)
         {
             physics_apply_angular_impulse(-my_power);
-            //physics_apply_local_impulse(0, 0, -my_power, 0);
-            
             image_speed = -1 / (3 / phy_speed) * sign(phy_speed_x);
             if (middle.x &lt; x) || (tail.x &lt; x)
             {
@@ -103,8 +108,6 @@ switch (behavior)
         else
         {
             physics_apply_angular_impulse(my_power);
-            //physics_apply_local_impulse(0, 0, my_power, 0);
-            
             image_speed = 1 / (3 / phy_speed) * sign(phy_speed_x);
             if (middle.x &gt; x)|| (tail.x &gt; x)
             {
@@ -144,6 +147,48 @@ switch (behavior)
                 physics_apply_impulse(other.x + curr_x_off, other.y, 
                 lengthdir_x(other.attack_power, dir), lengthdir_y(other.attack_power, dir));
             }
+        }
+        break;
+    }
+    case STUN:
+    {
+        if (obj_gg.x &lt; x)
+        {
+            phy_rotation = 0;
+            physics_apply_angular_impulse(my_power);
+            image_speed = -1 / (3 / phy_speed) * sign(phy_speed_x);
+            with(middle)
+            {
+                phy_rotation = 0;
+                physics_apply_angular_impulse(other.my_power);
+            }
+            with(tail)
+            {
+                phy_rotation = 0;
+                physics_apply_angular_impulse(other.my_power);
+            }
+        }
+        else
+        {
+            phy_rotation = 0;
+            physics_apply_angular_impulse(-my_power);
+            image_speed = 1 / (3 / phy_speed) * sign(phy_speed_x);
+            with(middle)
+            {
+                phy_rotation = 0;
+                physics_apply_angular_impulse(-other.my_power);
+            }
+            with(tail)
+            {
+                phy_rotation = 0;
+                physics_apply_angular_impulse(-other.my_power);
+            }
+        }
+        stun_counter++;
+        if (stun_counter &gt;= stun_time)
+        {
+            stun_counter = 0;
+            behavior = WALK;
         }
         break;
     }

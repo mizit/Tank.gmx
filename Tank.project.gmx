@@ -52,6 +52,9 @@
         <sprite>sprites\s_carner_mid</sprite>
         <sprite>sprites\s_carner_tail</sprite>
         <sprite>sprites\s_carner_attack</sprite>
+        <sprite>sprites\s_carner_death</sprite>
+        <sprite>sprites\s_carner_mid_death</sprite>
+        <sprite>sprites\s_carner_tail_death</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\s_test</sprite>
@@ -60,8 +63,13 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\shader_ini_sandbox.gml</script>
+    <script>scripts\shader_draw_sandbox.gml</script>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_ground.shader</shader>
+    <shader type="GLSLES">shaders\sh_5.shader</shader>
   </shaders>
   <objects name="objects">
     <objects name="wall">
@@ -108,6 +116,7 @@
       <object>objects\obj_monster</object>
     </objects>
     <object>objects\obj_test_fire</object>
+    <object>objects\obj_smoke_effect</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

@@ -31,6 +31,36 @@ gravity = 1.5;
 track_size = 30;
 track_x = ds_list_create();
 track_y = ds_list_create();
+
+ttd = track_size;
+die_cnt = 0;
+dead = 0;
+
+my_power = 500;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>ds_list_destroy(track_x);
+ds_list_destroy(track_y);
 </string>
           </argument>
         </arguments>
@@ -63,6 +93,34 @@ if (ds_list_size(track_x) &gt; track_size)
     ds_list_delete(track_x, 0);
     ds_list_delete(track_y, 0);
 }
+if (!dead)
+{
+    var tmp = collision_line(x, y, x + lengthdir_x(speed, direction),
+    y + lengthdir_y(speed, direction), obj_monster, 1, 1);
+    if (tmp)
+    {
+        with (tmp)
+        {
+            behavior = STUN;
+            //physics_apply_local_impulse(0, 0, -lengthdir_x(other.my_power, direction),
+            //-lengthdir_y(other.my_power, direction));
+        }
+        dead = 1;
+    }
+    /*with (other)
+    {
+        physics_apply_local_impulse(0, 0, lengthdir_x(other.my_power, direction),
+        lengthdir_y(other.my_power, direction));
+    }*/
+}
+if (dead)
+{
+    die_cnt ++;
+    if (die_cnt == ttd)
+    {
+        instance_destroy();
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -85,7 +143,7 @@ if (ds_list_size(track_x) &gt; track_size)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>dead = 1;
 </string>
           </argument>
         </arguments>
@@ -108,7 +166,10 @@ if (ds_list_size(track_x) &gt; track_size)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
+            <string>if (!dead)
+{
+    draw_self();
+}
 for (var i = 0; i &lt; ds_list_size(track_x) - 1; i++)
 {
     draw_set_alpha(i / track_size);

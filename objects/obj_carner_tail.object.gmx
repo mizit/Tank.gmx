@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>-1</depth>
   <persistent>0</persistent>
-  <parentName>obj_monster</parentName>
+  <parentName>obj_carner_mid</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="8" enumb="0">
