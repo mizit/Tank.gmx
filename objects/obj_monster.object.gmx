@@ -26,6 +26,37 @@
           <argument>
             <kind>1</kind>
             <string>status = 0;
+my_image_angle = 0;
+
+hp = 100;
+
+death_sprite = noone;
+monster_parts = ds_list_create();
+monster_frags = ds_list_create();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>ds_list_destroy(monster_parts);
+ds_list_destroy(monster_frags);
 </string>
           </argument>
         </arguments>
@@ -57,6 +88,21 @@ if (phy_speed_x &lt; 0)
     status |= LEFT;
 }
 */
+if (hp &lt;= 0) &amp;&amp; (behavior != DEAD)
+{
+    sprite_index = death_sprite;
+    image_index = 0;
+    image_speed = 1;
+    behavior = DEAD;
+    for (var i = 0; i &lt; ds_list_size(monster_parts); i++)
+    {
+        monster_parts[| i].sprite_index = monster_parts[| i].death_sprite;
+    }
+    for (var i = 0; i &lt; ds_list_size(monster_frags); i++)
+    {
+        instance_create(x, y, monster_frags[| i]);
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -110,7 +156,7 @@ if (phy_speed_x &lt; 0)
         {
             if ((pillars[i].x &lt; other.x) &amp;&amp; (pillars[i + 1].x &gt; other.x))
             {
-                other.image_angle = point_direction(pillars[i].x, pillars[i].y, 
+                other.my_image_angle = point_direction(pillars[i].x, pillars[i].y, 
                 pillars[i + 1].x, pillars[i + 1].y);
                 break;
             }
@@ -120,12 +166,12 @@ if (phy_speed_x &lt; 0)
 if (status &amp; LEFT)
 {
     draw_sprite_ext(sprite_index, -1, x, y, -1, 1, 
-    image_angle, c_white, 1);
+    my_image_angle, c_white, 1);
 }
 else
 {
     draw_sprite_ext(sprite_index, -1, x, y, 1, 1, 
-    image_angle, c_white, 1);
+    my_image_angle, c_white, 1);
 }
 
 </string>

@@ -55,6 +55,9 @@
         <sprite>sprites\s_carner_death</sprite>
         <sprite>sprites\s_carner_mid_death</sprite>
         <sprite>sprites\s_carner_tail_death</sprite>
+        <sprite>sprites\s_carner_frag1</sprite>
+        <sprite>sprites\s_carner_frag2</sprite>
+        <sprite>sprites\s_carner_frag3</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\s_test</sprite>
@@ -112,8 +115,13 @@
         <object>objects\obj_carner</object>
         <object>objects\obj_carner_mid</object>
         <object>objects\obj_carner_tail</object>
+        <object>objects\obj_carner_frag1</object>
+        <object>objects\obj_carner_frag2</object>
+        <object>objects\obj_carner_frag3</object>
       </objects>
       <object>objects\obj_monster</object>
+      <object>objects\obj_monster_part</object>
+      <object>objects\obj_monster_frag</object>
     </objects>
     <object>objects\obj_test_fire</object>
     <object>objects\obj_smoke_effect</object>

@@ -28,6 +28,7 @@
             <string>event_inherited();
 //phy_fixed_rotation = 1;
 my_power = 512;
+death_sprite = s_carner_death;
 
 behavior = WALK;
 attack_distance = 170;
@@ -58,6 +59,9 @@ else
 }
 middle.owner = id;
 tail.owner = middle;
+ds_list_add(monster_parts, middle, tail);
+
+ds_list_add(monster_frags, obj_carner_frag1, obj_carner_frag2, obj_carner_frag3);
 
 stun_time = 30;
 stun_counter = 0;
@@ -84,13 +88,16 @@ stun_counter = 0;
           <argument>
             <kind>1</kind>
             <string>event_inherited();
-if (obj_gg.x &lt; x)
+if (behavior != DEAD)
 {
-    status |= LEFT;
-}
-else
-{
-    status &amp;=~ LEFT;
+    if (obj_gg.x &lt; x)
+    {
+        status |= LEFT;
+    }
+    else
+    {
+        status &amp;=~ LEFT;
+    }
 }
 switch (behavior)
 {
@@ -152,7 +159,8 @@ switch (behavior)
     }
     case STUN:
     {
-        if (obj_gg.x &lt; x)
+        phy_rotation = 0;
+        /*if (obj_gg.x &lt; x)
         {
             phy_rotation = 0;
             physics_apply_angular_impulse(my_power);
@@ -183,12 +191,20 @@ switch (behavior)
                 phy_rotation = 0;
                 physics_apply_angular_impulse(-other.my_power);
             }
-        }
+        }*/
         stun_counter++;
         if (stun_counter &gt;= stun_time)
         {
             stun_counter = 0;
             behavior = WALK;
+        }
+        break;
+    }
+    case DEAD:
+    {
+        if (image_index &gt;= image_number - 1)
+        {
+            image_speed = 0;
         }
         break;
     }

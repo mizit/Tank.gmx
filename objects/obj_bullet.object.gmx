@@ -101,7 +101,11 @@ if (!dead)
     {
         with (tmp)
         {
-            behavior = STUN;
+            if (behavior != DEAD)
+            {
+                behavior = STUN;
+                hp -= 200;
+            }
             //physics_apply_local_impulse(0, 0, -lengthdir_x(other.my_power, direction),
             //-lengthdir_y(other.my_power, direction));
         }
