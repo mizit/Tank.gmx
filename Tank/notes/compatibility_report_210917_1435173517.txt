@@ -1,0 +1,24 @@
+Converting GML script : ${project_dir}\scripts\shader_ini_sandbox\shader_ini_sandbox.gml
+Converted description : /// @description shader_ini_sandbox(shader)/// @function shader_ini_sandbox
+/// @param shader
+
+Converting GML script : ${project_dir}\scripts\shader_draw_sandbox\shader_draw_sandbox.gml
+Converted description : /// @description shader_draw_sandbox(shader)/// @function shader_draw_sandbox
+/// @param shader
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+Converting GML script : ${project_dir}\objects\obj_navigation\Step_0.gml
+Converted builtin : line 19 : view_wview = current_scale * base_width -> __view_set( e__VW.WView, 0, current_scale * base_width )
+Converted builtin : line 20 : view_hview = current_scale * base_height -> __view_set( e__VW.HView, 0, current_scale * base_height )
+Converted builtin : line 21 : view_hborder = current_scale * base_width / 2 -> __view_set( e__VW.HBorder, 0, current_scale * base_width / 2 )
+Converted builtin : line 22 : view_vborder = current_scale * base_height / 2 -> __view_set( e__VW.VBorder, 0, current_scale * base_height / 2 )
+
+game speed set to 30
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script view/__view_set.gml
+added compatibility script view/__view_set_internal.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
+added compatibility script view/__view_get.gml
+added compatibility script __global_object_depths.gml
