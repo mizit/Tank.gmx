@@ -1,6 +1,6 @@
-#macro SHOULDER_DISTANCE 50
+#macro SHOULDER_DISTANCE 200
 
-catch_distance = 25;
+catch_distance = 100;
 bdpx = ds_list_create();
 bdpy = ds_list_create();
 
