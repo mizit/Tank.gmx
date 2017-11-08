@@ -9,7 +9,7 @@ draw_set_colour(make_colour_rgb(118, 93, 66));
     draw_vertex(pillars[i].x, room_height);
     draw_primitive_end();
 }*/
-for (var i = 0; i < ds_list_size(dpx) - 1; i++)
+/*for (var i = 0; i < ds_list_size(dpx) - 1; i++)
 {
     draw_primitive_begin(pr_trianglefan);
     draw_vertex(dpx[| i], dpy[| i]);
@@ -25,6 +25,8 @@ for (i = 0; i < ds_list_size(dpx) - 1; i += 1)
     draw_set_color(c_red);
     draw_line(ds_list_find_value(dpx, i), ds_list_find_value(dpy, i), 
     ds_list_find_value(dpx, i + 1), ds_list_find_value(dpy, i + 1)); 
-}
+}*/
+
+draw_path_sprite(my_path, 0, 0, sprite_get_height(s_test_ground), s_test_ground, 0, 1, 1, c_white, 1, 1, 1);
 //shader_reset();
 

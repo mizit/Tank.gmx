@@ -5,3 +5,4 @@ file_name = "\\" + room_get_name(room) + ".txt";
 
 dpx = ds_list_create();
 dpy = ds_list_create();
+my_path = path_add();

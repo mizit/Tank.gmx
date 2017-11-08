@@ -6,6 +6,14 @@ for (var i = 0; i < pil_num; i++)
 	ds_list_add(dpy, file_text_read_real(file));
 }
 file_text_close(file);
+
+for (var i = 0; i < ds_list_size(dpx); i++)
+{
+	path_add_point(my_path, dpx[| i], dpy[| i], 0);
+}
+//my_path = path0;
+path_set_closed(my_path, 0);
+path_set_kind(my_path, 0);
 /*for (var i = 0; i < instance_number(obj_pillar); i++)
 {
     pillars[i] = instance_find(obj_pillar, i);
