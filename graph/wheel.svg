@@ -22,6 +22,18 @@
    inkscape:export-ydpi="175">
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2205">
+      <stop
+         style="stop-color:#7d1b05;stop-opacity:1"
+         offset="0"
+         id="stop2201" />
+      <stop
+         style="stop-color:#fcc9be;stop-opacity:1"
+         offset="1"
+         id="stop2203" />
+    </linearGradient>
     <inkscape:path-effect
        effect="powerstroke"
        id="path-effect2523"
@@ -3498,6 +3510,15 @@
        y2="358.78671"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.65785009,0.66793675,0.66793675,-0.65785009,26.760566,-274.23923)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2205"
+       id="linearGradient2207"
+       x1="234.375"
+       y1="377.36218"
+       x2="234.375"
+       y2="302.36218"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -3506,13 +3527,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="1103.1706"
-     inkscape:cy="-67.722946"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="385.24025"
+     inkscape:cy="663.87111"
      inkscape:document-units="px"
      inkscape:current-layer="layer18"
-     showgrid="false"
-     showguides="false"
+     showgrid="true"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
@@ -3581,6 +3602,16 @@
        position="815.62498,519.37501"
        orientation="1,0"
        id="guide2327"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="121.875,750.00002"
+       orientation="0,1"
+       id="guide2195"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="150,675.00002"
+       orientation="0,1"
+       id="guide2197"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -9590,6 +9621,21 @@
        inkscape:path-effect="#path-effect2491"
        inkscape:original-d="m 1620.9375,1070.1747 c -15.2107,-121.1691 12.3343,-193.00393 31.875,-280.31249"
        sodipodi:nodetypes="cc" />
+    <g
+       id="g2235">
+      <path
+         sodipodi:nodetypes="ccssssssssssccc"
+         inkscape:connector-curvature="0"
+         id="path2199-7"
+         d="m 139.99999,306.11219 v 37.50002 c 10,0 0.87876,35.39964 14.0625,37.49998 9.88028,1.57406 8.76164,-24.01216 18.75,-23.43748 9.20455,0.52959 5.47093,23.68039 14.6875,23.43748 16.08133,-0.42383 7.65384,-39.07861 23.4375,-42.18748 9.81628,-1.93349 13.43262,18.75 23.4375,18.75 10.00488,0 13.45517,-18.07857 23.4375,-18.75 9.09032,-0.61143 17.73658,6.95565 23.4375,14.0625 6.18352,7.70846 -0.44809,27.04668 9.375,28.12498 9.05647,0.99415 4.97218,-22.82605 14.0625,-23.43748 9.98233,-0.67143 8.7459,23.31295 18.75,23.43748 16.33696,0.20337 14.0625,-37.49998 31.56251,-37.49998 v -37.5 z"
+         style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.15686275;fill-rule:evenodd;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccssssssssssccc"
+         inkscape:connector-curvature="0"
+         id="path2199"
+         d="m 140,302.36219 v 37.50002 c 10,0 0.87876,35.39964 14.0625,37.49998 9.88028,1.57406 8.76164,-24.01216 18.75,-23.43748 9.20455,0.52959 5.47093,23.68039 14.6875,23.43748 16.08133,-0.42383 7.65384,-39.07861 23.4375,-42.18748 9.81628,-1.93349 13.43262,18.75 23.4375,18.75 10.00488,0 13.45517,-18.07857 23.4375,-18.75 9.09032,-0.61143 17.73658,6.95565 23.4375,14.0625 6.18351,7.70846 -0.4481,27.04668 9.375,28.12498 9.05646,0.99415 4.97218,-22.82605 14.0625,-23.43748 9.98232,-0.67143 8.7459,23.31295 18.75,23.43748 C 339.77446,377.56556 337.5,339.86221 355,339.86221 v -37.5 z"
+         style="opacity:1;vector-effect:none;fill:url(#linearGradient2207);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"

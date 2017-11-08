@@ -51,6 +51,7 @@ for (var i = 0; i <= segments - 1; i++)
     var stepPrev = (i % segments) / segments;
     var step = i / segments;    
     var stepNext = (i + 1) / segments;
+	var stepNextNext = (i + 2) / segments;
     
     var pxPrev = pathX + path_get_x(path, stepPrev);
     var pyPrev = pathY + path_get_y(path, stepPrev);
@@ -60,20 +61,25 @@ for (var i = 0; i <= segments - 1; i++)
     
     var pxNext = pathX + path_get_x(path, stepNext);
     var pyNext = pathY + path_get_y(path, stepNext);
+	
+	var pxNextNext = pathX + path_get_x(path, stepNextNext);
+    var pyNextNext = pathY + path_get_y(path, stepNextNext);
     
     var dir = point_direction(px, py, pxNext, pyNext);
     if (i == segments) dir = lastDir;
     lastDir = dir;
-    
+    var dirNext = point_direction(pxNext, pyNext, pxNextNext, pyNextNext);
+	
+	
     var x1 = px + lengthdir_x(width / 2, dir - 90);
     var y1 = py + lengthdir_y(width / 2, dir - 90);
     var x2 = px + lengthdir_x(width / 2, dir + 90);
     var y2 = py + lengthdir_y(width / 2, dir + 90);
 	
-	var x1Next = pxNext + lengthdir_x(width / 2, dir - 90);
-    var y1Next = pyNext + lengthdir_y(width / 2, dir - 90);
-    var x2Next = pxNext + lengthdir_x(width / 2, dir + 90);
-    var y2Next = pyNext + lengthdir_y(width / 2, dir + 90);
+	var x1Next = pxNext + lengthdir_x(width / 2, dirNext - 90);
+    var y1Next = pyNext + lengthdir_y(width / 2, dirNext - 90);
+    var x2Next = pxNext + lengthdir_x(width / 2, dirNext + 90);
+    var y2Next = pyNext + lengthdir_y(width / 2, dirNext + 90);
     
     var uv = step;
 	var uvNext = stepNext;
@@ -86,17 +92,7 @@ for (var i = 0; i <= segments - 1; i++)
 		{
 			uv -= 0.33;
 			uvNext -= 0.33;
-		//uv = uv % l_text_width;
 		}
-		//show_message(uv);
-		/*if (uv < (spw / segments))
-		{
-			uv = 0;
-		}
-		if (uv > (l_text_width - spw / segments))
-		{
-			uv = l_text_width;
-		}*/
 	}
     uv *= repeatX;
 
@@ -106,6 +102,7 @@ for (var i = 0; i <= segments - 1; i++)
 	draw_vertex_texture_colour(x1Next, y1Next, uvNext, repeatY, color, alpha);
     draw_vertex_texture_colour(x2Next, y2Next, uvNext, 0, color, alpha);
 	draw_primitive_end();
+	
 }
 
 //texture_set_repeat(true);
