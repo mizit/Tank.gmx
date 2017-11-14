@@ -8,6 +8,10 @@ if (keyboard_check(vk_right))
     {
         physics_apply_angular_impulse(other.rot_add);
     }
+	with (wheel3)
+    {
+        physics_apply_angular_impulse(other.rot_add);
+    }
 } 
 else if (keyboard_check(vk_left))
 {
@@ -16,6 +20,10 @@ else if (keyboard_check(vk_left))
         physics_apply_angular_impulse(-other.rot_add);
     }
     with (wheel2)
+    {
+        physics_apply_angular_impulse(-other.rot_add);
+    }
+	with (wheel3)
     {
         physics_apply_angular_impulse(-other.rot_add);
     }
