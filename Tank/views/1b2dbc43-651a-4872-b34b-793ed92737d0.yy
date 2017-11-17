@@ -14,7 +14,10 @@
         "f3dca04f-97e4-4442-b9d3-9259249b8c0e",
         "78d28d7b-5a7c-4e5b-8a38-435d41f5ca34",
         "dbc9659e-d0ea-4556-85cd-8aeb1e5af208",
-        "e1a5c4a6-95ff-4ffb-9f53-d7a610b74c1d"
+        "e1a5c4a6-95ff-4ffb-9f53-d7a610b74c1d",
+        "2bcb39db-d0a8-4413-976b-f6038c9ac4b2",
+        "27be7b56-5ce8-455d-98c4-9d2b75795cd9",
+        "20608dd5-75bf-450f-b689-7587fcece33b"
     ],
     "filterType": "GMObject",
     "folderName": "tank",

@@ -40,9 +40,15 @@ gun_max = 0;
 gun_current = 0;
 
 base_gun = instance_create_depth(x - 64, y - 8, depth + 1, obj_bfg);
-base_gun.joint = physics_joint_revolute_create(tank2, base_gun, x - 64, y - 8, 0, 1, 1, 0, 0, 0, 0);
+base_gun.joint = physics_joint_revolute_create(tank2, base_gun, base_gun.x, base_gun.y, 0, 1, 1, 0, 0, 0, 0);
 base_gun.tower = tank2;
 
+
+pivot_min = -20;
+pivot_max = 80;
+pivot_current = 0;
+pivot = instance_create_depth(x + 26, y - 33, depth - 1, obj_pivot);
+pivot.joint = physics_joint_revolute_create(id, pivot, pivot.x, pivot.y, 0, 1, 1, 0, 0, 0, 0);
 /*small_gun_x  = 40;
 small_gun = instance_create(base_gun.x + small_gun_x, base_gun.y, obj_small_gun);
 physics_joint_prismatic_create(base_gun, small_gun, small_gun.x, small_gun.y, 0.1, 0, -15, 0, 1, 250, 150, 1, 0);*/

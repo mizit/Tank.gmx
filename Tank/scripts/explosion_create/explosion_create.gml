@@ -38,8 +38,8 @@ with (l_expl)
 			l_dir /= qual;
 			l_speed *= 1 / (1 + (abs(angle_difference(l_dir, l_direction)) / 10));
 		}
-		ds_list_add(beams, beam_create(x, y, l_speed, l_dir, l_speed / (room_speed / (0.1 * l_size))));
-		ds_list_add(dust_beams, beam_create(x, y, l_speed * 2, l_dir, l_speed / (room_speed / (0.2 * l_size))));
+		ds_list_add(beams, beam_create(x, y, l_speed, l_dir, l_speed / (room_speed / (4))));
+		ds_list_add(dust_beams, beam_create(x, y, l_speed * 2, l_dir, l_speed / (room_speed / (8))));
 		var gray = random_range(110, 140);
 		ds_list_add(dust_colors, make_color_rgb(gray, gray, gray));
 		var tmp_part = instance_create_depth(x, y, depth - 1, obj_exp_part);

@@ -1,9 +1,6 @@
 if (keyboard_check_pressed(vk_space) && (image_speed == 0))
 {
-	test = 1;
-	collision_line_prec(test);
-	show_message(test);
-	image_speed = 1;
+	image_speed = 0.5;
     physics_apply_local_impulse(0, 0, -2000, 0);
     var bullet = instance_create(x + lengthdir_x(sprite_width, image_angle),
     y + lengthdir_y(sprite_width, image_angle), obj_bullet);

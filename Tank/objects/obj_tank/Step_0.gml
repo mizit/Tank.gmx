@@ -34,3 +34,11 @@ keyboard_check(vk_down) * gun_speed));
 physics_joint_set_value(base_gun.joint, phy_joint_upper_angle_limit, gun_current + 1);
 physics_joint_set_value(base_gun.joint, phy_joint_lower_angle_limit, gun_current);
 
+var piv_dir = point_direction(pivot.x, pivot.y, mouse_x, mouse_y);
+if (piv_dir > 180)
+{
+	piv_dir -= 360;
+}
+pivot_current = - clamp(piv_dir, pivot_min, pivot_max);
+physics_joint_set_value(pivot.joint, phy_joint_upper_angle_limit, pivot_current + 1);
+physics_joint_set_value(pivot.joint, phy_joint_lower_angle_limit, pivot_current);
