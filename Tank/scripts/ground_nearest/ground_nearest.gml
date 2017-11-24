@@ -23,7 +23,8 @@ if (instance_exists(obj_free_ground))
 		{
 			//show_message("x" + string(l_arr[VEC2_X]));
 			//show_message("y" + string(l_arr[VEC2_Y]));
-			if (dpx[| round(cnt)] > l_x)
+			cnt = round(cnt);
+			if (dpx[| cnt] > l_x)
 			{
 				cnt -= qual / mult;
 			}
@@ -39,9 +40,17 @@ if (instance_exists(obj_free_ground))
 			return round(cnt);
 			break;
 		case GROUND_POS.CEIL:
+			while (obj_free_ground.dpx[| ceil(cnt)] < l_x)
+			{
+				cnt++;
+			}
 			return ceil(cnt);
 			break;
 		case GROUND_POS.FLOOR:
+		while (obj_free_ground.dpx[| floor(cnt)] > l_x)
+			{
+				cnt--;
+			}
 			return floor(cnt);
 			break;
 	}

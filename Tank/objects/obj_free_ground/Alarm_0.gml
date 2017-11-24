@@ -2,8 +2,21 @@ var file = file_text_open_read(working_directory + file_name);
 var pil_num = file_text_read_real(file);
 for (var i = 0; i < pil_num; i++)
 {
-	ds_list_add(dpx, file_text_read_real(file));
-	ds_list_add(dpy, file_text_read_real(file));
+	var tmp_x = file_text_read_real(file);
+	var tmp_y = file_text_read_real(file);
+	if (i > 0)
+	{
+		if (dpx[| i - 1] != tmp_x) || (dpy[| i - 1] != tmp_y)
+		{
+			ds_list_add(dpx, tmp_x);
+			ds_list_add(dpy, tmp_y);
+		}
+	}
+	else
+	{
+		ds_list_add(dpx, tmp_x);
+		ds_list_add(dpy, tmp_y);
+	}
 }
 file_text_close(file);
 

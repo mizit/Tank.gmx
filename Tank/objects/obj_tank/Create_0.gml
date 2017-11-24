@@ -1,13 +1,13 @@
 physics_world_update_speed(room_speed * 4);
 wheel_x1 = 12;
-wheel_x2 = 32;
+wheel_x2 = 40;
 wheel_x3 = 80;
 wheel_x4 = -24;
 wheel_x5 = -50;
 wheel_x6 = -84;
 wheel_y = 32;
 tower_y = -32;
-rot_add = 128;
+rot_add = 200;
 
 wheel1 = instance_create_depth(x + wheel_x1, y + wheel_y, depth - 1, obj_wheel);
 wheel2 = instance_create_depth(x + wheel_x2, y + wheel_y, depth - 1, obj_wheel);
