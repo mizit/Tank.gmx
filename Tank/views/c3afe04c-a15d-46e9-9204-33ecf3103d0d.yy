@@ -8,7 +8,9 @@
         "8048bd9b-4d82-493b-a1f6-8f816edc7ac1",
         "b7a6b896-1887-478a-a8f0-12b4d03021b5",
         "aa8cbf4d-5f70-4010-9d24-801e58444309",
-        "3a5a56c8-22e2-44c4-a1bc-5eb78fd4f686"
+        "3a5a56c8-22e2-44c4-a1bc-5eb78fd4f686",
+        "828b2250-8d5c-4b2c-92fb-21dd530ec158",
+        "6ff23be0-e6ce-4583-b5f7-0943ef16d005"
     ],
     "filterType": "GMSprite",
     "folderName": "tank",

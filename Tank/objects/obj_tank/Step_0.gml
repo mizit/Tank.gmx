@@ -42,3 +42,9 @@ if (piv_dir > 180)
 pivot_current = - clamp(piv_dir, pivot_min, pivot_max);
 physics_joint_set_value(pivot.joint, phy_joint_upper_angle_limit, pivot_current + 1);
 physics_joint_set_value(pivot.joint, phy_joint_lower_angle_limit, pivot_current);
+
+if (keyboard_check(vk_control))
+{
+	var tmp = instance_create(x, y, obj_rocket);
+	tmp.direction = 25;
+}

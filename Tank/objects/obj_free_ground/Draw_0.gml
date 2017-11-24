@@ -27,6 +27,6 @@ for (i = 0; i < ds_list_size(dpx) - 1; i += 1)
     ds_list_find_value(dpx, i + 1), ds_list_find_value(dpy, i + 1)); 
 }*/
 
-draw_path_sprite(my_path, 0, 0, sprite_get_height(s_test_ground), s_test_ground, 0, 1, 1, c_white, 1, 2, 1);
+draw_path_sprite(my_path, 0, 0, sprite_get_height(s_mars_ground), s_mars_ground, 0, 1, 1, c_white, 1, 2, 1);
 //shader_reset();
 

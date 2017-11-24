@@ -4523,45 +4523,6 @@
        x2="1218.75"
        y2="803.92468"
        gradientTransform="translate(40.60694,584.21241)" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter2692"
-       x="-0.11321812"
-       width="1.2264362"
-       y="-0.052783625"
-       height="1.1055672">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.66043905"
-         id="feGaussianBlur2694" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter3534"
-       x="-0.051035136"
-       width="1.1020703"
-       y="-0.80710942"
-       height="2.6142188">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="11.56265"
-         id="feGaussianBlur3536" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter3622"
-       x="-0.028188535"
-       width="1.0563771"
-       y="-0.16151824"
-       height="1.3230365">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="3.0560269"
-         id="feGaussianBlur3624" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -4570,13 +4531,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284272"
-     inkscape:cx="1243.3447"
-     inkscape:cy="-0.32102519"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="1582.3438"
+     inkscape:cy="-283.8223"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
-     showgrid="false"
-     showguides="true"
+     showgrid="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
@@ -4586,6 +4547,16 @@
     <inkscape:grid
        type="xygrid"
        id="grid4136" />
+    <sodipodi:guide
+       position="806.24998,206.25001"
+       orientation="1,0"
+       id="guide2237"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1068.75,75.000002"
+       orientation="1,0"
+       id="guide2239"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="1031.25,168.75"
        orientation="0,1"
@@ -4597,14 +4568,14 @@
        id="guide2243"
        inkscape:locked="false" />
     <sodipodi:guide
+       position="1143.75,56.250002"
+       orientation="1,0"
+       id="guide2245"
+       inkscape:locked="false" />
+    <sodipodi:guide
        position="1406.25,-93.750003"
        orientation="1,0"
        id="guide2247"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="862.49998,-393.75001"
-       orientation="1,0"
-       id="guide2702"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -5047,34 +5018,37 @@
        height="79.921883"
        x="1114.6254"
        y="1018.9437" />
-    <path
-       style="fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 1012.5,1099.2372 4.5405,-78.0972 c 0,0 0.389,-1.3537 0.8721,-1.8235 0.4144,-0.403 1.5848,-0.7043 1.5848,-0.7043 h 14.4598 c 0,0 1.1018,0.2785 1.4831,0.6629 0.362,0.365 0.6179,1.413 0.6179,1.413 l 4.5668,78.5491 z"
-       id="path2796"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsccsccc" />
-    <path
-       style="fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 1007.8125,1154.5497 1.8049,-54.1477 c 0,0 0.2529,-1.1107 0.6294,-1.5015 0.3303,-0.3429 1.2957,-0.6008 1.2957,-0.6008 h 30.1625 c 0,0 0.8973,0.1274 1.2146,0.4143 0.3406,0.308 0.5735,1.2527 0.5735,1.2527 l 1.8194,54.583 z"
-       id="path2794"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsccsccc" />
-    <path
-       style="fill:#f6532d;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter2872)"
-       d="m 870.86741,1120.7926 1.875,-56.25 h 33.75 c 0,0 -21.9573,3.6577 -25.5469,7.2657 -5.1373,5.1637 -10.0781,48.9843 -10.0781,48.9843 z"
-       id="path2847"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccsc"
-       clip-path="url(#clipPath2929)"
-       transform="translate(137.10937,33.5156)" />
-    <path
-       style="fill:#f6532d;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter2901)"
-       d="m 1127.1094,1129.2372 4.6875,-80.625 h 17.0183 1.7317 c 0,0 -11.6831,-0.1987 -15,3.5157 -3.3408,3.741 -4.322,77.1168 -4.322,77.1168 z"
-       id="path2895"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccscc"
-       clip-path="url(#clipPath2972)"
-       transform="translate(-114.6713,-30.1679)" />
+    <g
+       id="g2980">
+      <path
+         sodipodi:nodetypes="ccsccsccc"
+         inkscape:connector-curvature="0"
+         id="path2796"
+         d="m 1012.5,1099.2372 4.5405,-78.0972 c 0,0 0.389,-1.3537 0.8721,-1.8235 0.4144,-0.403 1.5848,-0.7043 1.5848,-0.7043 h 14.4598 c 0,0 1.1018,0.2785 1.4831,0.6629 0.362,0.365 0.6179,1.413 0.6179,1.413 l 4.5668,78.5491 z"
+         style="fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="ccsccsccc"
+         inkscape:connector-curvature="0"
+         id="path2794"
+         d="m 1007.8125,1154.5497 1.8049,-54.1477 c 0,0 0.2529,-1.1107 0.6294,-1.5015 0.3303,-0.3429 1.2957,-0.6008 1.2957,-0.6008 h 30.1625 c 0,0 0.8973,0.1274 1.2146,0.4143 0.3406,0.308 0.5735,1.2527 0.5735,1.2527 l 1.8194,54.583 z"
+         style="fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         transform="translate(137.10937,33.5156)"
+         clip-path="url(#clipPath2929)"
+         sodipodi:nodetypes="cccsc"
+         inkscape:connector-curvature="0"
+         id="path2847"
+         d="m 870.86741,1120.7926 1.875,-56.25 h 33.75 c 0,0 -21.9573,3.6577 -25.5469,7.2657 -5.1373,5.1637 -10.0781,48.9843 -10.0781,48.9843 z"
+         style="fill:#f6532d;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter2872)" />
+      <path
+         transform="translate(-114.6713,-30.1679)"
+         clip-path="url(#clipPath2972)"
+         sodipodi:nodetypes="ccccscc"
+         inkscape:connector-curvature="0"
+         id="path2895"
+         d="m 1127.1094,1129.2372 4.6875,-80.625 h 17.0183 1.7317 c 0,0 -11.6831,-0.1987 -15,3.5157 -3.3408,3.741 -4.322,77.1168 -4.322,77.1168 z"
+         style="fill:#f6532d;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter2901)" />
+    </g>
     <path
        style="fill:#7c2106;fill-opacity:1;stroke:none;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 853.1221,1074.119 69.5035,-35.9034 c 0,0 1.3629,-0.3554 2.0134,-0.1792 0.5579,0.1511 1.4138,1.0044 1.4138,1.0044 l 7.3708,12.4401 c 0,0 0.322,1.0899 0.1857,1.6139 -0.1295,0.4975 -0.9007,1.2519 -0.9007,1.2519 l -65.2499,43.9689 z"
@@ -5466,598 +5440,6 @@
          id="rect2546-5"
          style="fill:url(#linearGradient2691-3);fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
     </g>
-    <g
-       id="g2700"
-       transform="rotate(90,822.79842,917.21864)"
-       inkscape:export-xdpi="66"
-       inkscape:export-ydpi="66">
-      <path
-         inkscape:connector-curvature="0"
-         id="path2630-5"
-         transform="matrix(0.9375,0,0,0.9375,34.687502,0.93767593)"
-         d="m 838,991.51953 -5,9.99997 2,10 -4,5 v 5 l 5,-5 1.00391,5.0235 0.99609,-1.0235 0.99414,1.0293 1.00586,-5.0293 5,5 v -5 l -4,-5 2,-10 z"
-         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter2692)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path2630"
-         d="m 822.1875,953.92472 4.6875,4.6875 v -4.6875 l -3.75,-4.6875"
-         style="fill:#afa54f;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path2628"
-         d="m 820.3125,957.6747 -0.93299,0.96003 -3.75451,-18.77252 4.6875,-9.37501 4.6875,9.37501 -3.75563,18.77816 z"
-         style="fill:#9a2106;fill-opacity:1;stroke:none;stroke-width:0.9375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path2632"
-         d="m 818.4375,953.92472 -4.6875,4.6875 v -4.6875 l 3.75,-4.6875 z"
-         style="fill:#afa54f;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-    </g>
-    <g
-       id="g3602">
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path2704-9"
-         d="m 866.61472,1579.6708 476.36728,-3.2812 67.3828,3.2812 v 28.125 l -74.6284,2.9762 -74.4341,-2.9762 -2.9782,-2.8517 -2.0902,2.8517 -47.3174,-2.1318 -76.872,4.7565 -37.687,-2.5491 -4.1148,-2.3086 -3.1975,2.2703 -20.5671,-0.1077 -3.9873,-2.6547 -4.9776,2.6077 -110.85941,-3.6326 -80.03907,3.75 z"
-         style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter3534)" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path2704"
-         d="m 862.49998,1577.3622 476.36722,-3.2812 67.3828,3.2812 v 28.125 l -74.6284,2.9762 -74.4341,-2.9762 -2.9782,-2.8517 -2.0902,2.8517 -47.3174,-2.1318 -76.872,4.7565 -37.687,-2.5491 -4.1148,-2.3086 -3.1975,2.2703 -20.5671,-0.1077 -3.9873,-2.6547 -4.9776,2.6077 -110.85936,-3.6326 -80.03906,3.75 z"
-         style="opacity:1;vector-effect:none;fill:#9b2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path2729"
-         d="m 862.49998,1577.3622 v -84.375 h 27.77344 l 1.99219,2.1094 9.72656,-2.1094 h 143.32033 l 3.164,2.2265 14.8829,-2.2265 31.6065,1.823 39.3505,-1.823 7.5586,6.2109 3.3691,-6.2109 192.3484,3.313 68.6575,-3.313 v 84.375 l -67.3828,-3.2812 z"
-         style="opacity:1;vector-effect:none;fill:#f7370d;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3022"
-         d="m 862.49998,1558.6122 18.75002,-9.375 v 14.0625 l 18.75,-18.75 h 9.375 l -4.6875,14.0625 9.375,4.6875 9.375,-9.375 23.4375,-9.375 9.375,9.375 18.75,-9.375 -9.375,14.0625 18.75,4.6875 v -18.75 l 14.0625,9.375 -4.6875,9.375 23.4375,-4.6875 v -14.0625 h 18.75 l 4.6875,14.0625 18.75,-9.375 h 23.4375 v 9.375 l -4.6875,9.375 h 18.75 l 4.6875,-18.75 9.375,-9.375 23.4375,4.6875 14.0625,14.0625 -23.4375,9.375 h 37.5 l 9.375,-18.75 23.4375,-9.375 14.0625,14.0625 18.75,4.6875 14.0625,9.375 18.75,-18.75 18.75,9.375 18.75,4.6875 18.75,-9.375 9.375,-9.375 H 1350 l -37.5,23.4375 42.1875,-9.375 23.4375,-14.0625 28.125,9.375 v 23.4375 l -67.3828,-3.2812 -78.0469,3.2812 -65.0088,2.4859 -71.3442,-3.5251 -53.6493,1.1351 -11.3258,-0.01 -52.8516,2.4432 -38.96482,-2.5339 -31.72606,-0.01 -33.56317,2.6619 -39.88657,-2.6517 z"
-         style="opacity:1;vector-effect:none;fill:#c03108;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3020"
-         d="m 862.49998,1516.4247 18.75002,14.0625 9.375,-14.0625 14.0625,9.375 9.375,-9.375 18.75,9.375 4.6875,-14.0625 14.0625,-4.6875 18.75,9.375 -4.6875,9.375 9.375,-4.6875 9.375,-9.375 9.375,4.6875 9.375,14.0625 9.375,-9.375 -4.6875,-9.375 9.375,-4.6875 4.6875,9.375 v 18.75 l 18.75,-9.375 -4.6875,-14.0625 18.75,4.6875 14.0625,14.0625 18.75,9.375 -9.375,-18.75 h 14.0625 l 14.0625,-9.375 4.6875,14.0625 -9.375,9.375 H 1125 l 4.6875,-9.375 18.75,-9.375 -9.375,-4.6875 H 1162.5 l 14.0625,14.0625 -14.0625,4.6875 9.375,9.375 14.0625,-4.6875 28.125,-14.0625 -14.0625,-9.375 h 28.125 l 4.6875,18.75 28.125,-9.375 14.0625,-4.6875 -4.6875,-9.375 h 9.375 l 18.75,4.6875 -14.0625,14.0625 h 9.375 l 37.5,-14.0625 4.6875,14.0625 18.75,-14.0625 18.75,14.0625 9.375,-9.375 9.375,18.75 14.0625,-23.4375 v -18.75 l -68.6575,3.313 -119.9878,-5.6332 -72.4485,2.3202 -3.2812,6.2109 -7.6172,-6.2109 -39.2919,1.823 -31.255,-1.823 -15.2344,2.2265 -3.3984,-2.2265 -90.15251,-3.8117 -52.93342,3.8117 -9.72656,2.1094 -1.99219,-2.1094 h -27.77344 z"
-         style="opacity:1;vector-effect:none;fill:#f6582c;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2860"
-         d="m 1145.2441,1492.9872 7.0637,22.5851 -5.6348,24.5279 -17.5671,10.4408 15.5784,-11.7667 3.8118,-23.202 -6.6211,-16.3742"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2862"
-         d="m 1152.3078,1515.5723 11.9325,5.1376 9.115,12.2639 1.3258,16.0756 -3.4803,-15.4126 -9.115,-11.1038 -10.648,-3.7703 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path2864"
-         d="m 1167.8863,1528.665 -5.8834,14.7497 6.9606,-12.5124 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2866"
-         d="m 1159.517,1518.9698 14.1697,-7.3749 19.4731,3.5632 -18.6444,-1.7402 -12.4296,6.7949 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2870"
-         d="m 1134.3164,1492.9872 5.8104,6.7582 6.6291,15.9098 -3.1488,21.7933 -14.5012,13.0925 15.5784,-11.7667 3.8118,-23.2021 -6.6211,-16.3741 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2872"
-         d="m 1142.1984,1504.3028 -13.0925,5.2205 -5.8637,16.8624 7.2656,-13.9454 12.6021,-5.403 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path2868"
-         d="m 1145.0391,1506.1122 -14.5313,6.3281 -7.2656,13.9454 8.4718,-12.4302 12.0572,-5.4004 3.0207,1.1907"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2874"
-         d="m 1151.3135,1519.9642 9.9851,3.646 4.9718,5.8419 -4.2675,13.9626 5.6534,-14.0994 -5.5705,-6.7823 -10.648,-3.7703 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2876"
-         d="m 1168.418,1531.8641 2.0214,2.1387 4.2417,15.0466 -3.4803,-15.4126 -2.2373,-2.7345 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2880"
-         d="m 1163.4961,1520.3505 11.3086,-6.2109 18.3551,1.0185 -18.6444,-1.7402 -12.4296,6.7949 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path2891"
-         d="m 1256.1749,1577.3726 26.3251,-25.0885 15.7031,-26.4844 34.2188,-11.4844 -31.875,13.3594 -15.4688,26.4844 -24.3607,23.1954 -3.952,1.696 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path2900"
-         d="m 1292.5781,1540.331 19.4532,-1.4063 26.25,-10.5469 -25.459,12.1582 -22.5879,1.67 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path2902"
-         d="m 1316.6602,1538.6611 21.8554,-0.9083 -25.6933,2.7832 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2904"
-         d="m 1263.0469,1571.5028 -8.6719,-17.8125 -25.5469,-9.6093 28.5938,7.0312 8.6719,18.0469 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2906"
-         d="m 1249.9219,1549.2372 0.2344,-13.8281 12.6562,-12.4219 -9.8437,12.6563 -0.064,14.8146 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2908"
-         d="m 1286.3819,1547.7236 -2.2373,-12.4295 -12.0982,-7.5407 13.5069,6.3805 2.5687,12.0153 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2910"
-         d="m 1036.4063,1537.2841 30.4687,-4.6875 26.4844,-15.9375 -29.2969,20.3906 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2912"
-         d="m 911.9531,1530.7216 23.90625,9.6094 40.07815,-3.75 45,9.6093 -45.46875,-5.1562 -39.6094,3.0469 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path2914"
-         d="m 944.31475,1540.151 -3.30969,-12.7521 2.82306,-16.3648 0.46875,15.9375 4.21875,14.2969 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path2916"
-         d="m 956.01562,1540.331 3.22266,16.7578 5.44922,12.0703 0.55664,10.2832 2.43164,-2.0801 0.29297,-10.2539 -4.92188,-12.4805 -0.70312,-14.5312 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2918"
-         d="m 962.34375,1540.0966 11.95312,-12.8906 33.04683,-11.9532 -32.10933,15.2344 -6.09375,8.6719 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path2920"
-         d="m 959.98031,1553.027 -18.47869,9.6122 -3.39789,16.2783 2.65211,-1.6933 2.7345,-12.0982 15.74794,-8.0363 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path2922"
-         d="m 1063.9394,1579.6552 -5.5019,-25.4961 12.3805,23.299 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path2924"
-         d="m 1063.8281,1492.9872 -19.6875,9.6094 -23.9062,1.1719 23.4375,-5.3907 4.8046,-3.1641 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccccc"
-         inkscape:connector-curvature="0"
-         id="path2926"
-         d="m 892.26561,1495.0966 -24.60938,18.2812 7.03125,26.0157 -2.10937,21.3281 5.85937,-22.5 -5.85937,-23.2031 29.53125,-22.0313 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccc"
-         inkscape:connector-curvature="0"
-         id="path2928"
-         d="m 887.43594,1502.2651 23.34528,2.2065 -26.48436,0.2344"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2930"
-         d="m 878.43748,1508.6903 28.125,10.5469 -22.73437,-4.9219 -9.60938,-4.6875"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2934"
-         d="m 1168.7149,1560.1533 27.1794,-0.3315 31.8198,-31.8198 -32.8142,26.185 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2936"
-         d="m 1335.1059,1565.4565 35.1344,-10.2751 -13.5897,-31.8198 35.4658,-16.2414 -28.8366,17.5673 12.2638,33.8085 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2938"
-         d="m 1361.3672,1522.6357 -22.3828,-13.5938 17.6662,14.3197 z"
-         style="opacity:1;vector-effect:none;fill:#f9795b;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2970"
-         d="m 1227.7141,1528.002 -33.4771,22.539 -25.5221,9.6123 26.185,-5.9663 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccccc"
-         inkscape:connector-curvature="0"
-         id="path2977"
-         d="m 1256.7654,1579.0505 6.2815,-7.5477 -8.6719,-17.8125 -25.5469,-9.6093 23.9938,10.7689 7.6235,15.6614 -6.7948,6.8776 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccccc"
-         inkscape:connector-curvature="0"
-         id="path2982"
-         d="m 1251.8262,1553.0165 -1.91,-3.6329 0.2401,-13.9745 12.6562,-12.4219 -14.1466,11.4217 -0.2248,14.6401 1.4481,3.4331 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccccccc"
-         inkscape:connector-curvature="0"
-         id="path2984"
-         d="m 1266.0938,1569.1591 17.1934,-16.5435 3.2776,-6.1126 -2.4202,-11.2089 -12.0982,-7.5407 11.2281,7.9757 1.7816,10.2544 -3.066,5.3447 -17.0078,15.5577 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2986"
-         d="m 1292.5781,1540.331 7.9688,-12.6563 31.875,-13.3594 -31.0001,14.3703 -6.7121,11.601 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path2988"
-         d="m 1291.3537,1543.3733 22.1248,-1.6159 25.0371,-4.0046 -25.6933,2.7832 -20.5571,1.3457 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path2990"
-         d="m 1316.6602,1538.6611 21.6211,-10.2834 -19.6653,10.2309 -1.4187,1.8872 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2992"
-         d="m 1335.1059,1565.4565 31.4175,-12.1177 -12.3046,-28.9453 -15.2344,-15.3516 17.6662,14.3197 13.5897,31.8198 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2994"
-         d="m 1364.2969,1526.9716 27.8195,-19.8514 -28.8366,17.5673 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path2996"
-         d="m 1059.4922,1577.4794 -1.0547,-23.3203 5.5019,25.4961 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path2998"
-         d="m 1036.4063,1537.2841 29.3914,-6.7962 27.5617,-13.8288 -26.4844,15.9375 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path3000"
-         d="m 1048.4765,1495.2137 -4.8046,3.1641 -23.4375,5.3907 22.2785,-7.5034 2.7345,-3.3146 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3002"
-         d="m 938.10373,1578.9175 -2.15401,-1.5703 4.06037,-16.9042 15.70268,-8.1621 -1.40863,-9.6537 2.07158,-0.1243 2.1959,11.2696 -17.07,8.8664 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path3004"
-         d="m 965.24414,1579.4423 -0.55664,-10.2832 -5.44922,-12.0703 -1.86816,1.0757 5.4276,11.3525 0.0828,7.9962 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3006"
-         d="m 943.82812,1511.0341 -2.82306,16.3648 3.83366,14.5773 -8.89651,0.1778 -23.98911,-11.4324 22.96081,6.7269 4.88896,-0.2486 -1.82296,-10.6066 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3008"
-         d="m 944.83872,1541.9762 20.67509,-2.487 8.78306,-12.2832 33.04683,-11.9532 -33.69079,10.1804 -10.02657,10.7723 -16.11394,1.7562 -4.6048,-1.7781 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path3010"
-         d="m 969.14062,1539.1591 6.32813,-1.2304 45.46875,8.2615 -45.29587,-12.1392 -3.39741,0.4144 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccccccc"
-         inkscape:connector-curvature="0"
-         id="path3012"
-         d="m 872.57811,1560.7216 -0.26801,-21.6158 -7.04344,-26.5165 25.10781,-19.7217 1.89114,2.229 -24.60938,18.2812 7.03125,26.0157 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path3014"
-         d="m 906.56248,1519.2372 -26.46315,-9.8796 0.13445,-2.7398 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path3016"
-         d="m 888.47174,1502.4309 22.30948,2.0407 c -25.86911,-2.445 -25.86911,-2.445 0,0 l -22.01894,-4.3859 z"
-         style="opacity:1;vector-effect:none;fill:#9a2206;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path3208"
-         d="m 1260.7174,1577.3545 -4.4674,13.0155 0.9375,15.1025 -2.9782,-2.837 -0.303,-12.9686 2.8591,-10.6164 z"
-         style="opacity:1;vector-effect:none;fill:#f74a21;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path3215"
-         d="m 1253.6506,1577.3889 -2.113,11.7254 0.58,16.3656 2.0917,-2.8444 -0.303,-12.9686 2.8591,-10.6164 z"
-         style="opacity:1;vector-effect:none;fill:#741a04;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3217"
-         d="m 1070.818,1577.4581 0.4487,10.206 16.49,10.5237 2.486,7.375 -4.1148,-2.3086 -1.2715,-3.7397 -11.5561,-6.7186 -3.7886,-0.053 -5.1227,6.8545 -1.9887,5.8834 -4.0243,-2.7187 2.2012,-4.7383 6.132,-9.7779 -2.7698,-8.589 z"
-         style="opacity:1;vector-effect:none;fill:#f74a21;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3233"
-         d="m 1058.376,1602.7621 -4.9776,2.6077 4.8047,-9.961 5.625,-7.8515 -4.3359,-10.0782 4.4472,2.1776 2.7698,8.589 -6.132,9.7778 z"
-         style="opacity:1;vector-effect:none;fill:#741a04;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path3235"
-         d="m 1086.1279,1603.2542 -3.1864,2.1207 -1.2992,-4.9177 -12.1306,-7.7143 3.8266,-0.023 11.5181,6.7947 z"
-         style="opacity:1;vector-effect:none;fill:#741a04;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path3237"
-         d="m 967.67578,1577.3622 -2.40234,14.5313 -0.0293,-12.4512 z"
-         style="opacity:1;vector-effect:none;fill:#f74a21;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path3239"
-         d="m 940.75584,1577.2242 -4.42774,12.9115 1.77563,-11.2182 z"
-         style="opacity:1;vector-effect:none;fill:#f74a21;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         inkscape:connector-curvature="0"
-         id="path3260"
-         d="m 965.24409,1579.4423 0.0291,12.4512 -2.39288,-14.3803 z"
-         style="opacity:1;vector-effect:none;fill:#741a04;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      <path
-         inkscape:export-ydpi="33"
-         inkscape:export-xdpi="33"
-         inkscape:export-filename="E:\trash\example\my_example\Tank.gmx\graph\ground\ground2.png"
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path3262"
-         d="m 935.94972,1577.3472 0.37838,12.7885 1.77563,-11.2182 z"
-         style="opacity:1;vector-effect:none;fill:#741a04;fill-opacity:1;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-    </g>
-    <ellipse
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.3137255;stroke:none;stroke-width:2.8125;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter3622)"
-       id="path3604"
-       cx="1268.6489"
-       cy="1028.6631"
-       rx="130.09659"
-       ry="22.704756"
-       inkscape:export-xdpi="33"
-       inkscape:export-ydpi="33" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -8289,75 +7671,81 @@
        id="path2262-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
-    <path
-       style="fill:#270901;fill-opacity:1;stroke:none;stroke-width:9.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.47058824;paint-order:normal"
-       d="m 1126.875,902.36221 v 56.25001 l -23.4375,37.5 h -215.625 l -23.43752,-37.5 2e-5,-75.00001 h 30.9375 l 18.75,14.0625 h 56.25 l 46.875,37.5 h 56.25 l 18.75,-32.8125 z"
-       id="path4636"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccc" />
-    <path
-       style="fill:#731e05;fill-opacity:1;stroke:#57170a;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 938.35284,968.83519 108.71766,-8.61788 -97.44816,-25.19062 -20.21886,6.96056 z"
-       id="path4642"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#862506;fill-opacity:1;stroke:#060202;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 1047.0705,960.21728 47.3982,9.94369 c 0,0 -8.0217,-14.74887 -8.9493,-23.20191 -0.9242,-8.42231 0.1688,-17.13272 3.646,-24.85921 3.4371,-7.63729 13.0925,-18.893 13.0925,-18.893 l -9.5732,-0.016 -19.2472,31.98386 h -56.25 z"
-       id="path4644"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccssccccc" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#585222;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 938.35284,968.83519 108.71766,-8.61788"
-       id="path4931"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#918943;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 1047.0705,960.21731 45.6404,9.47494 c 0,0 -7.0076,-9.35214 -8.2577,-23.26754 -0.7436,-8.27661 0.2528,-17.66986 3.5155,-25.3125 4.9722,-11.64699 11.2423,-16.96783 11.2423,-16.96783 l -8.1669,-0.016 -17.6066,31.04633 -56.25,3e-5"
-       id="path4650"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsscccc" />
-    <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter4745)"
-       d="m 919.89269,903.65668 h 56.25 l 76.75801,62.5426 -97.4482,-25.1907 -20.21883,6.9606 z"
-       id="path4640-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter4745-9)"
-       d="m 944.91548,913.40491 80.77772,22.04184 36.1546,27.40824 -94.1336,-30.99119 -18.23005,-0.99435 z"
-       id="path4640-6-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:#9a2406;fill-opacity:1;stroke:#57170a;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 914.0625,897.67471 h 56.25 l 76.758,62.5426 -97.44819,-25.19062 -20.21883,6.96057 z"
-       id="path4640"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#a49a44;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 914.0625,897.67471 h 56.25 l 76.758,62.5426 -97.44816,-25.19062 -20.21886,6.96056"
-       id="path4648"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter4714)"
-       d="m 871.69674,890.58855 -2e-5,75 73.97786,10.2229 -24.29034,-71.1604 -18.75,-14.0625 z"
-       id="path4638-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:#ae2406;fill-opacity:1;stroke:#57170a;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 864.375,883.61221 -2e-5,75.00001 73.97786,10.22297 -24.29034,-71.16048 -18.75,-14.0625 z"
-       id="path4638"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#afa54f;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 864.375,883.61221 -2e-5,75.00001 73.97786,10.22297 -24.29034,-71.16048 -18.75,-14.0625 z"
-       id="path4646"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+    <g
+       style="display:inline"
+       id="g2772"
+       inkscape:export-xdpi="33.922276"
+       inkscape:export-ydpi="33.922276">
+      <path
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4636"
+         d="m 1126.875,902.36221 v 56.25001 l -23.4375,37.5 h -215.625 l -23.43752,-37.5 2e-5,-75.00001 h 30.9375 l 18.75,14.0625 h 56.25 l 46.875,37.5 h 56.25 l 18.75,-32.8125 z"
+         style="fill:#270901;fill-opacity:1;stroke:none;stroke-width:9.375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.47058824;paint-order:normal" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4642"
+         d="m 938.35284,968.83519 108.71766,-8.61788 -97.44816,-25.19062 -20.21886,6.96056 z"
+         style="fill:#731e05;fill-opacity:1;stroke:#57170a;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="ccssccccc"
+         inkscape:connector-curvature="0"
+         id="path4644"
+         d="m 1047.0705,960.21728 47.3982,9.94369 c 0,0 -8.0217,-14.74887 -8.9493,-23.20191 -0.9242,-8.42231 0.1688,-17.13272 3.646,-24.85921 3.4371,-7.63729 13.0925,-18.893 13.0925,-18.893 l -9.5732,-0.016 -19.2472,31.98386 h -56.25 z"
+         style="fill:#862506;fill-opacity:1;stroke:#060202;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4931"
+         d="m 938.35284,968.83519 108.71766,-8.61788"
+         style="fill:none;fill-opacity:1;stroke:#585222;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="ccsscccc"
+         inkscape:connector-curvature="0"
+         id="path4650"
+         d="m 1047.0705,960.21731 45.6404,9.47494 c 0,0 -7.0076,-9.35214 -8.2577,-23.26754 -0.7436,-8.27661 0.2528,-17.66986 3.5155,-25.3125 4.9722,-11.64699 11.2423,-16.96783 11.2423,-16.96783 l -8.1669,-0.016 -17.6066,31.04633 -56.25,3e-5"
+         style="fill:none;fill-opacity:1;stroke:#918943;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4640-6"
+         d="m 919.89269,903.65668 h 56.25 l 76.75801,62.5426 -97.4482,-25.1907 -20.21883,6.9606 z"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter4745)" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4640-6-4"
+         d="m 944.91548,913.40491 80.77772,22.04184 36.1546,27.40824 -94.1336,-30.99119 -18.23005,-0.99435 z"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter4745-9)" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4640"
+         d="m 914.0625,897.67471 h 56.25 l 76.758,62.5426 -97.44819,-25.19062 -20.21883,6.96057 z"
+         style="fill:#9a2406;fill-opacity:1;stroke:#57170a;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4648"
+         d="m 914.0625,897.67471 h 56.25 l 76.758,62.5426 -97.44816,-25.19062 -20.21886,6.96056"
+         style="fill:none;fill-opacity:1;stroke:#a49a44;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4638-4"
+         d="m 871.69674,890.58855 -2e-5,75 73.97786,10.2229 -24.29034,-71.1604 -18.75,-14.0625 z"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter4714)" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4638"
+         d="m 864.375,883.61221 -2e-5,75.00001 73.97786,10.22297 -24.29034,-71.16048 -18.75,-14.0625 z"
+         style="fill:#ae2406;fill-opacity:1;stroke:#57170a;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4646"
+         d="m 864.375,883.61221 -2e-5,75.00001 73.97786,10.22297 -24.29034,-71.16048 -18.75,-14.0625 z"
+         style="fill:none;fill-opacity:1;stroke:#afa54f;stroke-width:4.6875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -13029,7 +12417,8 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Нашлёпки"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="display:inline;fill:#e55300;fill-opacity:1;stroke:#7f2e00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect8195"
@@ -13561,8 +12950,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Обвес"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#ff5c00;fill-opacity:1;stroke:#7f2e00;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7980"
@@ -13726,6 +13114,40 @@
          d="m 1197.3047,907.04971 c -1.9922,-14.0625 13.7667,-18.75 21.4453,-18.75 h 37.5 l -4.6875,4.6875 -18.75,4.6875 c -7.2833,1.82083 -7.0561,4.53376 -10.8984,7.85156 -3.7397,3.22928 -10.2948,5.51086 -15.2344,5.39063 -4.3149,-0.10503 -8.2193,0.46301 -9.375,-3.86719 z"
          style="fill:none;fill-opacity:1;stroke:#d83918;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
     </g>
+    <path
+       style="display:inline;fill:#000000;fill-opacity:0.54901961;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 792.1875,949.23722 -4.6875,-23.43751 9.375,-9.375 9.375,9.375 -4.6875,23.43751 z"
+       id="path2628"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:0.54901961;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 820.3125,943.61221 -0.9375,0.9375 -3.75,-18.75 4.6875,-9.375 4.6875,9.375 -3.75,18.75 z"
+       id="path2701"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#000000;fill-opacity:0.54901961;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 822.1875,939.86222 3.75,3.75 0,-10e-6 0.9375,-2.81249 -3.75,-5.62501 z"
+       id="path2703"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#000000;fill-opacity:0.54901961;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 818.4375,939.86222 -3.75,3.75 0,-10e-6 -0.9375,-2.81249 3.75,-5.62501 z"
+       id="path2705"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#9b2e07;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 815.625,925.79971 3.75,18.75001 0.9375,-0.9375 0.9375,0.9375 3.75,-18.75001 z"
+       id="path2709"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#969696;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 815.625,925.79971 c 2.8125,1.875 6.5625,1.875 9.375,0 l -4.6875,-9.375 z"
+       id="path2707"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
      inkscape:groupmode="layer"
