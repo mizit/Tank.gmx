@@ -13,7 +13,7 @@ var l_pt = argument3;
 var l_em = argument4;
 var l_color = argument5;
 
-for (var i = 0; i < l_beam[| BEAM.LENGTH]; i+=5)
+for (var i = 0; i < l_beam[| BEAM.LENGTH]; i+=irandom(100))
 {
 	var l_w = l_width * (1 - i / l_beam[| BEAM.LENGTH]);
 	part_type_color1(l_pt, l_color);

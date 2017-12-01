@@ -1,4 +1,4 @@
-with (obj_free_ground)
+/*with (obj_free_ground)
 {
     if (ready)
     {
@@ -12,7 +12,7 @@ with (obj_free_ground)
             }
         }
     }
-}
+}*/
 if (status & LEFT)
 {
     draw_sprite_ext(sprite_index, -1, x, y, -1, 1, 

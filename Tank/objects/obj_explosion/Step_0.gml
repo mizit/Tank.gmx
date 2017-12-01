@@ -15,7 +15,7 @@ for (var i = 0; i < ds_list_size(beams); i++)
 	}
 }
 
-for (var i = 0; i < ds_list_size(dust_beams); i++)
+/*for (var i = 0; i < ds_list_size(dust_beams); i++)
 {
 	var beam = dust_beams[| i];
 	beam[| BEAM.LENGTH] += beam[| BEAM.SPEED_UP];
@@ -32,7 +32,7 @@ for (var i = 0; i < ds_list_size(dust_beams); i++)
 		i--;
 		ds_list_destroy(beam);
 	}
-}
+}*/
 
 if (ds_list_size(beams) == 0) && (part_particles_count(dust_ps) == 0)
 {

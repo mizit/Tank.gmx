@@ -40,10 +40,22 @@ with (l_expl)
 		}
 		ds_list_add(beams, beam_create(x, y, l_speed, l_dir, l_speed / (room_speed / (4))));
 		ds_list_add(dust_beams, beam_create(x, y, l_speed * 2, l_dir, l_speed / (room_speed / (8))));
-		var gray = random_range(110, 140);
+		var gray = random_range(120, 140);
 		ds_list_add(dust_colors, make_color_rgb(gray, gray, gray));
-		var tmp_part = instance_create_depth(x, y, depth - 1, obj_exp_part);
-		tmp_part.direction = l_dir;
-		tmp_part.speed = l_speed;
+		var dust_size = 15;
+		part_emitter_region(dust_ps, dust_em, x - dust_size, x + dust_size, y - dust_size, y + dust_size, ps_shape_ellipse, ps_distr_gaussian);
+		part_type_direction(dust_pt, l_dir, l_dir, 0, 0);
+		part_type_direction(ball_pt, l_dir, l_dir, 0, 0);
+		part_type_color1(dust_pt, dust_colors[| i]);
+		for (var j = 1; j < 5; j++)
+		{
+			part_type_speed(dust_pt, 0, l_speed * (j / 2), -5, 0);
+			part_type_speed(ball_pt, l_speed, l_speed, 0, 0);
+			part_emitter_burst(dust_ps, dust_em, dust_pt, l_speed / 2);
+			part_emitter_burst(dust_ps, dust_em, ball_pt, 1);
+		}
+		//var tmp_part = instance_create_depth(x, y, depth - 1, obj_exp_part);
+		//tmp_part.direction = l_dir;
+		//tmp_part.speed = l_speed;
 	}
 }

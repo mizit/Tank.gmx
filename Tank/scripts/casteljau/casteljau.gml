@@ -1,5 +1,5 @@
 //
-var p_x, p_y, level, qual, f_x, f_y, obj;
+/*var p_x, p_y, level, qual, f_x, f_y, obj;
 p_x = argument0;
 p_y = argument1;
 qual = argument2;
@@ -22,4 +22,4 @@ fx = ds_list_create();
 fy = ds_list_create();
 just(points_x, points_y, ds_list_size(points_x) - 1, qual, fx, fy, obj);
 ds_list_destroy(fx);
-ds_list_destroy(fy);
+ds_list_destroy(fy);*/

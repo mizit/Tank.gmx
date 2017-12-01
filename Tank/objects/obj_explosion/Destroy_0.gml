@@ -13,5 +13,7 @@ while(ds_list_size(dust_beams) > 0)
 ds_list_destroy(dust_beams);
 ds_list_destroy(dust_colors);
 part_type_destroy(dust_pt);
+part_type_destroy(spark_pt);
+part_type_destroy(ball_pt);
 part_system_clear(dust_ps);
 part_system_destroy(dust_ps);
