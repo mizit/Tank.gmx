@@ -14,22 +14,36 @@ if (ds_list_size(obj_free_ground.dpy) > 20)
 	var lpos, rpos;
 	lx = tank2.x - lengthdir_x(tank2.sprite_width + 20, tank2.image_angle);
 	rx = x + lengthdir_x(sprite_width + 20, image_angle);
+	if (lx > rx)
+	{
+		var tmp = lx;
+		lx = rx;
+		rx = tmp;
+	}
 	lpos = ground_nearest(lx, GROUND_POS.CEIL);
 	rpos = ground_nearest(rx, GROUND_POS.FLOOR);
 	ly = ground_y_of_x(lx);
 	ry = ground_y_of_x(rx);
 	path_add_point(shd_path, lx, ly, 0);
-	while (lpos != rpos)
+	if !(is_undefined(obj_free_ground.dpx[| lpos]) || is_undefined(obj_free_ground.dpy[| lpos])) 
 	{
-		if (obj_free_ground.dpx[| lpos] != lx)
+		while (lpos != rpos)
+		{
+			if (obj_free_ground.dpx[| lpos] != lx)
+			{
+				if (is_undefined(obj_free_ground.dpx[| lpos]) || is_undefined(obj_free_ground.dpy[| lpos])) 
+				{
+					lpos--;
+					break;
+				}
+				path_add_point(shd_path, obj_free_ground.dpx[| lpos], obj_free_ground.dpy[| lpos], 0);
+			}
+			lpos++;
+		}
+		if (obj_free_ground.dpx[| lpos] != rx)
 		{
 			path_add_point(shd_path, obj_free_ground.dpx[| lpos], obj_free_ground.dpy[| lpos], 0);
 		}
-		lpos++;
-	}
-	if (obj_free_ground.dpx[| lpos] != rx)
-	{
-		path_add_point(shd_path, obj_free_ground.dpx[| lpos], obj_free_ground.dpy[| lpos], 0);
 	}
 	path_add_point(shd_path, rx, ry, 0);
 	path_set_closed(shd_path, 0);

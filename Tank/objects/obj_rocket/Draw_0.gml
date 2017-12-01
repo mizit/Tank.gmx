@@ -13,4 +13,4 @@ if (ds_list_size(track_x) > 1)
     draw_line(track_x[| i], track_y[| i], phy_position_x, phy_position_y);
 }
 
-physics_draw_debug();
+//physics_draw_debug();
