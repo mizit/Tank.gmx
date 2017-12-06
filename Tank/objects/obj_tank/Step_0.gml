@@ -77,3 +77,9 @@ if (keyboard_check(vk_control))
 	tmp.direction = 25;
 	tmp.goal = obj_goal;
 }
+
+if (keyboard_check_pressed(ord("P")))
+{
+	keyboard_clear(ord("P"));
+	instance_create(0, 0, obj_menu_eng);
+}
