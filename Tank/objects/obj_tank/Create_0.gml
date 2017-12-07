@@ -57,8 +57,16 @@ physics_joint_prismatic_create(base_gun, small_gun, small_gun.x, small_gun.y, 0.
 
 for (var i = 0; i < 5; i++)
 {
-	var tmp = instance_create_depth(0, 0, -1000, asset_get_index("obj_tst_m" + string(i)));
+	var tmp = instance_create_depth(0, 0, -1000, obj_tst_m0);//asset_get_index("obj_tst_m" + string(i)));
 	tmp.type = TYPE.CONSTRUCT;
+	tmp.owner = hold_list;
+	ds_list_add(hold_list, tmp);
+	var tmp = instance_create_depth(0, 0, -1000, obj_tst_m1);
+	tmp.type = TYPE.WEAPON;
+	tmp.owner = hold_list;
+	ds_list_add(hold_list, tmp);
+	var tmp = instance_create_depth(0, 0, -1000, obj_tst_m2);
+	tmp.type = TYPE.SUPPORT;
 	tmp.owner = hold_list;
 	ds_list_add(hold_list, tmp);
 }

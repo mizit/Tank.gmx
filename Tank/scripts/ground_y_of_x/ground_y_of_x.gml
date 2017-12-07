@@ -16,6 +16,10 @@ if (instance_exists(obj_free_ground))
 		{
 			l_rx++;
 			x2 = dpx[| l_rx];
+			if (is_undefined(x1) || is_undefined(x2))
+			{
+				return 0;
+			}
 		}
 		y1 = dpy[| l_lx];
 		y2 = dpy[| l_rx];

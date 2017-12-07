@@ -56,7 +56,7 @@ else
 		}
 		case CURSOR_STATE.CONSTRUCT:
 		{
-			if (ds_list_size(construct_list) < stack_max_size)
+			if (ds_list_size(construct_list) < stack_max_size) && (l_item.type == TYPE.CONSTRUCT)
 			{
 				ds_list_add(construct_list, l_item);
 				l_item.owner = construct_list;
@@ -65,12 +65,16 @@ else
 			{
 				ds_list_add(hold_list, l_item);
 				l_item.owner = hold_list;
+				with(obj_menu_eng)
+				{
+					ds_list_add(stock_list, l_item);
+				}
 			}
 			break;
 		}
 		case CURSOR_STATE.WEAPON:
 		{
-			if (ds_list_size(weapon_list) < stack_max_size)
+			if (ds_list_size(weapon_list) < stack_max_size) && (l_item.type == TYPE.WEAPON)
 			{
 				ds_list_add(weapon_list, l_item);
 				l_item.owner = weapon_list;
@@ -79,12 +83,16 @@ else
 			{
 				ds_list_add(hold_list, l_item);
 				l_item.owner = hold_list;
+				with(obj_menu_eng)
+				{
+					ds_list_add(stock_list, l_item);
+				}
 			}
 			break;
 		}
 		case CURSOR_STATE.SUPPORT:
 		{
-			if (ds_list_size(support_list) < stack_max_size)
+			if (ds_list_size(support_list) < stack_max_size) && (l_item.type == TYPE.SUPPORT)
 			{
 				ds_list_add(support_list, l_item);
 				l_item.owner = support_list;
@@ -93,6 +101,10 @@ else
 			{
 				ds_list_add(hold_list, l_item);
 				l_item.owner = hold_list;
+				with(obj_menu_eng)
+				{
+					ds_list_add(stock_list, l_item);
+				}
 			}
 			break;
 		}
@@ -109,19 +121,31 @@ else
 		}
 		case CURSOR_STATE.ENERGY:
 		{
-			with (obj_menu_eng)
+			if (l_item.type == TYPE.ENERGY)
 			{
-				var l_pos = 1;
-				if (mouse_y < energy_edge1_y)
+				with (obj_menu_eng)
 				{
-					l_pos = 0;
+					var l_pos = 1;
+					if (mouse_y < energy_edge1_y)
+					{
+						l_pos = 0;
+					}
+					if (mouse_y > energy_edge2_y)
+					{
+						l_pos = 2;
+					}
+					energy_arr[l_pos] = l_item;
+					l_item.owner = item_owners_energy_link(l_pos);
 				}
-				if (mouse_y > energy_edge2_y)
+			}
+			else
+			{
+				ds_list_add(hold_list, l_item);
+				l_item.owner = hold_list;
+				with(obj_menu_eng)
 				{
-					l_pos = 2;
+					ds_list_add(stock_list, l_item);
 				}
-				energy_arr[l_pos] = l_item;
-				l_item.owner = item_owners_energy_link(l_pos);
 			}
 			break;
 		}

@@ -42,9 +42,9 @@ stock_pos = 0;
 stock_step_wheel = 10;
 
 construct_lt_x = -320;
-construct_lt_y = -200;
+construct_lt_y = -198;
 construct_rb_x = -40;
-construct_rb_y = -140;
+construct_rb_y = -142;
 
 weapon_lt_x = -320;
 weapon_lt_y = -80;
@@ -55,6 +55,8 @@ support_lt_x = -320;
 support_lt_y = 40;
 support_rb_x = -40;
 support_rb_y = 100;
+
+small_mult = (construct_rb_y - construct_lt_y) / sprite_get_height(s_menu_module);
 
 energy_lt_x = 240;
 energy_lt_y = -220;
