@@ -55,3 +55,10 @@ pivot.joint = physics_joint_revolute_create(id, pivot, pivot.x, pivot.y, 0, 1, 1
 small_gun = instance_create(base_gun.x + small_gun_x, base_gun.y, obj_small_gun);
 physics_joint_prismatic_create(base_gun, small_gun, small_gun.x, small_gun.y, 0.1, 0, -15, 0, 1, 250, 150, 1, 0);*/
 
+for (var i = 0; i < 5; i++)
+{
+	var tmp = instance_create_depth(0, 0, -1000, asset_get_index("obj_tst_m" + string(i)));
+	tmp.type = TYPE.CONSTRUCT;
+	tmp.owner = hold_list;
+	ds_list_add(hold_list, tmp);
+}

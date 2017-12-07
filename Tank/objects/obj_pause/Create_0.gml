@@ -4,4 +4,7 @@ surface_set_target(surf);
 draw_surface(application_surface, 0, 0);
 surface_reset_target();
 instance_deactivate_all(1);
+instance_activate_object(obj_menu_item);
 physics_pause_enable(1);
+c_x = surface_get_width(surf) / 2;
+c_y = surface_get_height(surf) / 2;

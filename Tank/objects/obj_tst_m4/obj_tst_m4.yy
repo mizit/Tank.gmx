@@ -1,13 +1,13 @@
 {
-    "id": "693f6680-b94d-4d3a-be9e-5156f9427776",
+    "id": "0f7e3203-fc7e-4e83-99cd-8bd90f3421dd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_menu_module",
+    "name": "obj_tst_m4",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "728b6f49-8a21-41f1-b7f1-90dbd49f6eb0",
+    "parentObjectId": "693f6680-b94d-4d3a-be9e-5156f9427776",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "c1de11ee-2620-4c47-8d26-b138ceb26675",
+    "spriteId": "2c89da56-b691-4489-94cc-d4c310c49c51",
     "visible": true
 }
