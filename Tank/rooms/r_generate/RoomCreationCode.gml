@@ -9,7 +9,7 @@ weapon_list = ds_list_create();
 support_list = ds_list_create();
 for (var i = 0; i < 3; i++)
 {
-	energy_arr = noone;
+	energy_arr[i] = noone;
 }
 globalvar stack_max_size;
 stack_max_size = 5;

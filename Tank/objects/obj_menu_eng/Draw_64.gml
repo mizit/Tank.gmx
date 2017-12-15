@@ -18,5 +18,13 @@ if (surface_exists(surf))
 		draw_sprite_ext(support_list[| i].sprite_index, -1, c_x + support_rb_x * mult - (i + 0.5) * mult * (support_rb_y - support_lt_y),
 		c_y + support_rb_y * mult - 0.5 * mult * (support_rb_y - support_lt_y), mult * small_mult, mult * small_mult, 0, c_white, 1);
 	}
-	draw_rectangle(c_x + energy_lt_x * mult, c_y + energy_lt_y * mult, c_x + energy_rb_x * mult, c_y + energy_rb_y * mult, 0);
+	for (var i = 0; i < 3; i++)
+	{
+		if (energy_arr[i] != noone)
+		{
+			draw_sprite_ext(energy_arr[i].sprite_index, -1, c_x + energy_lt_x * mult + 0.5 * mult * (energy_rb_x - energy_lt_x), 
+			c_y + energy_lt_y * mult + i * mult * energy_step + 0.5 * mult * (energy_rb_x - energy_lt_x), mult, mult, 0, c_white, 1);
+		}
+	}
+	//draw_rectangle(c_x + energy_lt_x * mult, c_y + energy_lt_y * mult, c_x + energy_rb_x * mult, c_y + energy_rb_y * mult, 0);
 }

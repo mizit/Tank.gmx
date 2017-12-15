@@ -47,14 +47,14 @@ construct_rb_x = -40;
 construct_rb_y = -142;
 
 weapon_lt_x = -320;
-weapon_lt_y = -80;
+weapon_lt_y = -78;
 weapon_rb_x = -40;
-weapon_rb_y = -20;
+weapon_rb_y = -22;
 
 support_lt_x = -320;
-support_lt_y = 40;
+support_lt_y = 42;
 support_rb_x = -40;
-support_rb_y = 100;
+support_rb_y = 98;
 
 small_mult = (construct_rb_y - construct_lt_y) / sprite_get_height(s_menu_module);
 
@@ -64,6 +64,7 @@ energy_rb_x = 320;
 energy_rb_y = 100;
 energy_edge1_y = energy_lt_y + 100;
 energy_edge2_y = energy_rb_y - 100;
+energy_step = 120;
 
 power_max = 0;
 power_current = 0;

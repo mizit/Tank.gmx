@@ -126,16 +126,28 @@ else
 				with (obj_menu_eng)
 				{
 					var l_pos = 1;
-					if (mouse_y < energy_edge1_y)
+					if (window_mouse_get_y() < c_y + energy_edge1_y * mult)
 					{
 						l_pos = 0;
 					}
-					if (mouse_y > energy_edge2_y)
+					if (window_mouse_get_y() > c_y + energy_edge2_y * mult)
 					{
 						l_pos = 2;
 					}
-					energy_arr[l_pos] = l_item;
-					l_item.owner = item_owners_energy_link(l_pos);
+					if (energy_arr[l_pos] == noone)
+					{
+						energy_arr[l_pos] = l_item;
+						l_item.owner = item_owners_energy_link(l_pos);
+					}
+					else
+					{
+						ds_list_add(hold_list, l_item);
+						l_item.owner = hold_list;
+						with(obj_menu_eng)
+						{
+							ds_list_add(stock_list, l_item);
+						}
+					}
 				}
 			}
 			else

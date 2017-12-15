@@ -69,4 +69,8 @@ for (var i = 0; i < 5; i++)
 	tmp.type = TYPE.SUPPORT;
 	tmp.owner = hold_list;
 	ds_list_add(hold_list, tmp);
+	var tmp = instance_create_depth(0, 0, -1000, obj_tst_m3);
+	tmp.type = TYPE.ENERGY;
+	tmp.owner = hold_list;
+	ds_list_add(hold_list, tmp);
 }

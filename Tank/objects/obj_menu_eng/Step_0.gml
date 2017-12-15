@@ -34,6 +34,46 @@ if (mouse_check_button_pressed(mb_left))
 			}
 			break;
 		}
+		case CURSOR_STATE.CONSTRUCT:
+		{
+			if (ds_list_size(construct_list) > 0)
+			{
+				var l_item = construct_list[| ds_list_size(construct_list) - 1];
+				item_set_dnd(l_item, 1, cursor_state);
+			}
+		}
+		case CURSOR_STATE.WEAPON:
+		{
+			if (ds_list_size(weapon_list) > 0)
+			{
+				var l_item = weapon_list[| ds_list_size(weapon_list) - 1];
+				item_set_dnd(l_item, 1, cursor_state);
+			}
+		}
+		case CURSOR_STATE.SUPPORT:
+		{
+			if (ds_list_size(support_list) > 0)
+			{
+				var l_item = support_list[| ds_list_size(support_list) - 1];
+				item_set_dnd(l_item, 1, cursor_state);
+			}
+		}
+		case CURSOR_STATE.ENERGY:
+		{
+			var l_pos = 1;
+			if (window_mouse_get_y() < c_y + energy_edge1_y * mult)
+			{
+				l_pos = 0;
+			}
+			if (window_mouse_get_y() > c_y + energy_edge2_y * mult)
+			{
+				l_pos = 2;
+			}
+			if (energy_arr[l_pos] != noone)
+			{
+				item_set_dnd(energy_arr[l_pos], 1, cursor_state);
+			}
+		}
 	}
 }
 
