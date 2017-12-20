@@ -26,5 +26,6 @@ if (surface_exists(surf))
 			c_y + energy_lt_y * mult + i * mult * energy_step + 0.5 * mult * (energy_rb_x - energy_lt_x), mult, mult, 0, c_white, 1);
 		}
 	}
-	//draw_rectangle(c_x + energy_lt_x * mult, c_y + energy_lt_y * mult, c_x + energy_rb_x * mult, c_y + energy_rb_y * mult, 0);
+	draw_surface_ext(energy_d_surf, c_x + energy_d_lt_x * mult, c_y + energy_d_lt_y * mult, mult, mult, 0, c_white, 1);
+	//draw_rectangle(c_x + energy_d_lt_x * mult, c_y + energy_d_lt_y * mult, c_x + energy_d_rb_x * mult, c_y + energy_d_rb_y * mult, 0);
 }

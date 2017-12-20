@@ -77,6 +77,8 @@ if (mouse_check_button_pressed(mb_left))
 	}
 }
 
+
+//draw stock
 surface_clear(stock_surf);
 surface_set_target(stock_surf);
 for (var i = 0; i < ds_list_size(stock_list); i++)
@@ -86,3 +88,48 @@ for (var i = 0; i < ds_list_size(stock_list); i++)
 	mult, mult, 0, c_white, 1);
 }
 surface_reset_target();
+
+///Energy cards
+if (keyboard_check_pressed(vk_up))
+{
+	energy_current++;
+}
+if (keyboard_check_pressed(vk_down))
+{
+	energy_current = max(0, energy_current - 1);
+}
+
+
+if (floor(energy_current / 10) > floor(energy_digital / 10))
+{
+	energy_digital += 10;
+	var tmp = instance_create_depth(- energy_d_plan_distance, (energy_d_rb_y - energy_d_lt_y) / 2, depth - 1 - ds_list_size(energy_d_dec_list), obj_eng_small_digits);
+	tmp.image_index = floor(energy_digital / 10);
+	ds_list_add(energy_d_dec_list, tmp);
+}
+
+if (floor(energy_current / 10) < floor(energy_digital / 10))
+{
+	energy_digital -= 10;
+	var tmp = energy_d_dec_list[| ds_list_size(energy_d_dec_list) - 1];
+	tmp.back = 1;
+	ds_list_delete(energy_d_dec_list, ds_list_size(energy_d_dec_list) - 1);
+}
+
+
+if ((energy_current % 10) > (energy_digital % 10))
+{
+	energy_digital += 1;
+	var tmp = instance_create_depth(energy_d_rb_x - energy_d_lt_x + energy_d_plan_distance, (energy_d_rb_y - energy_d_lt_y) / 2, depth - 1 - ds_list_size(energy_d_one_list), obj_eng_small_digits);
+	tmp.image_index = (energy_digital % 10);
+	tmp.direction = 180;
+	ds_list_add(energy_d_one_list, tmp);
+}
+
+if ((energy_current % 10) < (energy_digital % 10))
+{
+	energy_digital -= 1;
+	var tmp = energy_d_one_list[| ds_list_size(energy_d_one_list) - 1];
+	tmp.back = 1;
+	ds_list_delete(energy_d_one_list, ds_list_size(energy_d_one_list) - 1);
+}

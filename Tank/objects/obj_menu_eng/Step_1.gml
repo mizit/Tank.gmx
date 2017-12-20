@@ -1,0 +1,1 @@
+surface_clear(energy_d_surf);

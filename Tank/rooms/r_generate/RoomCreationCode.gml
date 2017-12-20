@@ -13,4 +13,8 @@ for (var i = 0; i < 3; i++)
 }
 globalvar stack_max_size;
 stack_max_size = 5;
+globalvar energy_max;
+globalvar energy_current;
+energy_max = 0;
+energy_current = 0;
 room_goto_next();

@@ -66,5 +66,15 @@ energy_edge1_y = energy_lt_y + 100;
 energy_edge2_y = energy_rb_y - 100;
 energy_step = 120;
 
+energy_d_lt_x = 120;
+energy_d_lt_y = -80;
+energy_d_rb_x = 200;
+energy_d_rb_y = -40;
+energy_d_surf = surface_create(energy_d_rb_x - energy_d_lt_x, energy_d_rb_y - energy_d_lt_y);
+energy_digital = 0;
+energy_d_dec_list = ds_list_create();
+energy_d_one_list = ds_list_create();
+energy_d_plan_distance = 35;
+
 power_max = 0;
 power_current = 0;
