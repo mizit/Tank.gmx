@@ -17,6 +17,10 @@ with (obj_eng_small_digits)
 {
 	instance_destroy();
 }
+with(obj_menu_button)
+{
+	instance_destroy();
+}
 ds_list_destroy(energy_d_one_list);
 surface_free(energy_d_surf);
 //ds_list_destroy(construct_list);

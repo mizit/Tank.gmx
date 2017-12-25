@@ -20,6 +20,19 @@ if (point_in_rectangle(window_mouse_get_x(), window_mouse_get_y(), c_x + energy_
 	cursor_state = CURSOR_STATE.ENERGY;
 }
 
+for (var i = 0; i < 6; i++)
+{
+	if (point_in_rectangle(window_mouse_get_x(), window_mouse_get_y(),
+	btn[i].x, btn[i].y - btn[i].sprite_yoffset, btn[i].x + btn[i].sprite_width, 
+	btn[i].y - btn[i].sprite_yoffset + btn[i].sprite_height)) && mouse_check_button_pressed(mb_left)
+	{
+		if (script_exists(btn[i].script))
+		{
+			script_execute(btn[i].script);
+		}
+	}
+}
+
 if (mouse_check_button_pressed(mb_left))
 {
 	switch (cursor_state)

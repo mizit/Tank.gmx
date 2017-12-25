@@ -6,7 +6,7 @@ enum CURSOR_STATE
 	CONSTRUCT,
 	WEAPON,
 	SUPPORT,
-	ENERGY	
+	ENERGY
 }
 cursor_state = CURSOR_STATE.FREE;
 
@@ -75,6 +75,47 @@ energy_digital = 0;
 energy_d_dec_list = ds_list_create();
 energy_d_one_list = ds_list_create();
 energy_d_plan_distance = 35;
+
+btn_x_offset = 37;
+
+btn[0] = instance_create_depth(x + c_x + mult * btn_x_offset, y + c_y - mult * 220, depth - 1, obj_menu_button);
+btn[0].script = btn_construct_up;
+btn[0].mult = mult;
+btn[0].image_xscale = mult;
+btn[0].image_yscale = mult;
+
+btn[1] = instance_create_depth(x + c_x + mult * btn_x_offset, y + c_y - mult * 140, depth - 1, obj_menu_button);
+btn[1].script = btn_construct_down;
+btn[1].mult = mult;
+btn[1].sprite_index = s_menu_btn_down;
+btn[1].image_xscale = mult;
+btn[1].image_yscale = mult;
+
+btn[2] = instance_create_depth(x + c_x + mult * btn_x_offset, y + c_y - mult * 100, depth - 1, obj_menu_button);
+btn[2].script = btn_weapon_up;
+btn[2].mult = mult;
+btn[2].image_xscale = mult;
+btn[2].image_yscale = mult;
+
+btn[3] = instance_create_depth(x + c_x + mult * btn_x_offset, y + c_y - mult * 20, depth - 1, obj_menu_button);
+btn[3].script = btn_weapon_down;
+btn[3].mult = mult;
+btn[3].sprite_index = s_menu_btn_down;
+btn[3].image_xscale = mult;
+btn[3].image_yscale = mult;
+
+btn[4] = instance_create_depth(x + c_x + mult * btn_x_offset, y + c_y + mult * 20, depth - 1, obj_menu_button);
+btn[4].script = btn_support_up;
+btn[4].mult = mult;
+btn[4].image_xscale = mult;
+btn[4].image_yscale = mult;
+
+btn[5] = instance_create_depth(x + c_x + mult * btn_x_offset, y + c_y + mult * 100, depth - 1, obj_menu_button);
+btn[5].script = btn_support_down;
+btn[5].mult = mult;
+btn[5].sprite_index = s_menu_btn_down;
+btn[5].image_xscale = mult;
+btn[5].image_yscale = mult;
 
 power_max = 0;
 power_current = 0;
