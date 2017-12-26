@@ -45,16 +45,39 @@ construct_lt_x = -320;
 construct_lt_y = -198;
 construct_rb_x = -40;
 construct_rb_y = -142;
+construct_d_lt_x = -22;
+construct_d_lt_y = -205;
+construct_d_rb_x = 28;
+construct_d_rb_y = -155;
+construct_d_surf = surface_create(construct_d_rb_x - construct_d_lt_x, construct_d_rb_y - construct_d_lt_y);
+construct_d_list = ds_list_create();
+construct_digital = 0;
 
 weapon_lt_x = -320;
 weapon_lt_y = -78;
 weapon_rb_x = -40;
 weapon_rb_y = -22;
+weapon_d_lt_x = -22;
+weapon_d_lt_y = -85;
+weapon_d_rb_x = 28;
+weapon_d_rb_y = -35;
+weapon_d_surf = surface_create(weapon_d_rb_x - weapon_d_lt_x, weapon_d_rb_y - weapon_d_lt_y);
+weapon_d_list = ds_list_create();
+weapon_digital = 0;
 
 support_lt_x = -320;
 support_lt_y = 42;
 support_rb_x = -40;
 support_rb_y = 98;
+support_d_lt_x = -22;
+support_d_lt_y = 35;
+support_d_rb_x = 28;
+support_d_rb_y = 85;
+support_d_surf = surface_create(support_d_rb_x - support_d_lt_x, support_d_rb_y - support_d_lt_y);
+support_d_list = ds_list_create();
+support_digital = 0;
+
+d_plan_distance = sprite_get_height(s_digit) + 50;
 
 small_mult = (construct_rb_y - construct_lt_y) / sprite_get_height(s_menu_module);
 
@@ -116,6 +139,8 @@ btn[5].mult = mult;
 btn[5].sprite_index = s_menu_btn_down;
 btn[5].image_xscale = mult;
 btn[5].image_yscale = mult;
+
+
 
 power_max = 0;
 power_current = 0;

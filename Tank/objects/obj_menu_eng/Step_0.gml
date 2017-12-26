@@ -112,7 +112,7 @@ if (keyboard_check_pressed(vk_down))
 	energy_current = max(0, energy_current - 1);
 }
 
-
+//Отрисовка цифр для отображения запаса энергии
 if (floor(energy_current / 10) > floor(energy_digital / 10))
 {
 	energy_digital += 10;
@@ -145,4 +145,58 @@ if ((energy_current % 10) < (energy_digital % 10))
 	var tmp = energy_d_one_list[| ds_list_size(energy_d_one_list) - 1];
 	tmp.back = 1;
 	ds_list_delete(energy_d_one_list, ds_list_size(energy_d_one_list) - 1);
+}
+
+///Отрисовка цифр энергии в конструкции
+if (energy_construct > construct_digital)
+{
+	construct_digital += 1;
+	var tmp = instance_create_depth((construct_d_rb_x - construct_d_lt_x) / 2, -d_plan_distance, depth - 1 - ds_list_size(construct_d_list), obj_eng_digits);
+	tmp.image_index = construct_digital;
+	tmp.goal_surf = construct_d_surf;
+	ds_list_add(construct_d_list, tmp);
+}
+
+if (energy_construct < construct_digital)
+{
+	construct_digital -= 1;
+	var tmp = construct_d_list[| ds_list_size(construct_d_list) - 1];
+	tmp.back = 1;
+	ds_list_delete(construct_d_list, ds_list_size(construct_d_list) - 1);
+}
+
+///Отрисовка цифр энергии в орудиях
+if (energy_weapon > weapon_digital)
+{
+	weapon_digital += 1;
+	var tmp = instance_create_depth((weapon_d_rb_x - weapon_d_lt_x) / 2, -d_plan_distance, depth - 1 - ds_list_size(weapon_d_list), obj_eng_digits);
+	tmp.image_index = weapon_digital;
+	tmp.goal_surf = weapon_d_surf;
+	ds_list_add(weapon_d_list, tmp);
+}
+
+if (energy_weapon < weapon_digital)
+{
+	weapon_digital -= 1;
+	var tmp = weapon_d_list[| ds_list_size(weapon_d_list) - 1];
+	tmp.back = 1;
+	ds_list_delete(weapon_d_list, ds_list_size(weapon_d_list) - 1);
+}
+
+///Отрисовка цифр энергии в поддержке
+if (energy_support > support_digital)
+{
+	support_digital += 1;
+	var tmp = instance_create_depth((support_d_rb_x - support_d_lt_x) / 2, -d_plan_distance, depth - 1 - ds_list_size(support_d_list), obj_eng_digits);
+	tmp.image_index = support_digital;
+	tmp.goal_surf = support_d_surf;
+	ds_list_add(support_d_list, tmp);
+}
+
+if (energy_support < support_digital)
+{
+	support_digital -= 1;
+	var tmp = support_d_list[| ds_list_size(support_d_list) - 1];
+	tmp.back = 1;
+	ds_list_delete(support_d_list, ds_list_size(support_d_list) - 1);
 }

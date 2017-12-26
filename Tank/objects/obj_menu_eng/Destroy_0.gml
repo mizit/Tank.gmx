@@ -23,6 +23,12 @@ with(obj_menu_button)
 }
 ds_list_destroy(energy_d_one_list);
 surface_free(energy_d_surf);
+surface_free(construct_d_surf);
+surface_free(weapon_d_surf);
+surface_free(support_d_surf);
+ds_list_destroy(construct_d_list);
+ds_list_destroy(weapon_d_list);
+ds_list_destroy(support_d_list);
 //ds_list_destroy(construct_list);
 //ds_list_destroy(weapon_list);
 //ds_list_destroy(support_list);

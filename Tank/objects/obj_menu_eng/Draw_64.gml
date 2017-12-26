@@ -27,5 +27,10 @@ if (surface_exists(surf))
 		}
 	}
 	draw_surface_ext(energy_d_surf, c_x + energy_d_lt_x * mult, c_y + energy_d_lt_y * mult, mult, mult, 0, c_white, 1);
-	//draw_rectangle(c_x + energy_d_lt_x * mult, c_y + energy_d_lt_y * mult, c_x + energy_d_rb_x * mult, c_y + energy_d_rb_y * mult, 0);
+	draw_surface_ext(construct_d_surf, c_x + construct_d_lt_x * mult, c_y + construct_d_lt_y * mult, mult, mult, 0, c_white, 1);
+	draw_surface_ext(weapon_d_surf, c_x + weapon_d_lt_x * mult, c_y + weapon_d_lt_y * mult, mult, mult, 0, c_white, 1);
+	draw_surface_ext(support_d_surf, c_x + support_d_lt_x * mult, c_y + support_d_lt_y * mult, mult, mult, 0, c_white, 1);
+	//draw_rectangle(c_x + construct_d_lt_x * mult, c_y + construct_d_lt_y * mult, c_x + construct_d_rb_x * mult, c_y + construct_d_rb_y * mult, 0);
+	//draw_rectangle(c_x + weapon_d_lt_x * mult, c_y + weapon_d_lt_y * mult, c_x + weapon_d_rb_x * mult, c_y + weapon_d_rb_y * mult, 0);
+	//draw_rectangle(c_x + support_d_lt_x * mult, c_y + support_d_lt_y * mult, c_x + support_d_rb_x * mult, c_y + support_d_rb_y * mult, 0);
 }
