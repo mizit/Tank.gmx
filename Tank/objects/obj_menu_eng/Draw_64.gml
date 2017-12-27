@@ -34,3 +34,4 @@ if (surface_exists(surf))
 	//draw_rectangle(c_x + weapon_d_lt_x * mult, c_y + weapon_d_lt_y * mult, c_x + weapon_d_rb_x * mult, c_y + weapon_d_rb_y * mult, 0);
 	//draw_rectangle(c_x + support_d_lt_x * mult, c_y + support_d_lt_y * mult, c_x + support_d_rb_x * mult, c_y + support_d_rb_y * mult, 0);
 }
+draw_sprite_ext(s_glass, -1, c_x + energy_d_lt_x * mult, c_y  - mult * 220, mult, mult, 0, c_white, 1);
