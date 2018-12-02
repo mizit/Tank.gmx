@@ -33,6 +33,45 @@ for (var i = 0; i < 6; i++)
 	}
 }
 
+//Управление позицией предметов в трюме
+if (mouse_wheel_up())
+{
+	switch(cursor_state)
+	{
+		case CURSOR_STATE.STOCK:
+		{
+			stock_step_speed -= stock_step_wheel;
+			break;
+		}
+	}
+}
+
+if (mouse_wheel_down())
+{
+	switch(cursor_state)
+	{
+		case CURSOR_STATE.STOCK:
+		{
+			stock_step_speed += stock_step_wheel;
+			break;
+		}
+	}
+}
+stock_step_speed = friction_manual(stock_step_speed, stock_step_friction);
+stock_pos += stock_step_speed;
+if (stock_pos >= 0)
+{
+	stock_step_speed = 0;
+	stock_pos = 0;
+}
+var stock_length = ds_list_size(stock_list) * stock_delta;
+if (stock_pos <= ((stock_rb_x - stock_lt_x) - stock_length))
+{
+	stock_step_speed = 0;
+	stock_pos = (stock_rb_x - stock_lt_x) - stock_length;
+}
+
+//Обработка нажатия левой кнопки мыши
 if (mouse_check_button_pressed(mb_left))
 {
 	switch (cursor_state)

@@ -1255,6 +1255,14 @@
             }
         },
         {
+            "Key": "b1c4bd8b-0efa-4a96-b0dc-ba07fd8487c7",
+            "Value": {
+                "id": "6ae5f593-dd3b-4e04-877a-d0d65ea1601f",
+                "resourcePath": "scripts\\friction_manual\\friction_manual.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b2018f21-8b86-4844-ba5b-5bfd84fa1da7",
             "Value": {
                 "id": "f1ed635b-8aed-4faf-81a9-e4115470424c",
@@ -1883,7 +1891,8 @@
         "2917d24b-8831-43e5-ac1a-18ede3366257",
         "bb02be00-d6a7-41a4-8f28-07863e37d97b",
         "439d00e3-03c2-4226-8c83-e8a437c4376e",
-        "94578888-96de-4556-8049-1be15d946e10"
+        "94578888-96de-4556-8049-1be15d946e10",
+        "b1c4bd8b-0efa-4a96-b0dc-ba07fd8487c7"
     ],
     "tutorial": ""
 }

@@ -40,6 +40,8 @@ stock_y_offset = sprite_get_height(s_menu_module) / 2;
 stock_delta = sprite_get_width(s_menu_module) + 5;
 stock_pos = 0;
 stock_step_wheel = 10;
+stock_step_speed = 0;
+stock_step_friction = 1;
 
 construct_lt_x = -320;
 construct_lt_y = -198;
