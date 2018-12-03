@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "08ce2554-0b46-4ae0-8807-f81d46104391",
+            "Value": {
+                "id": "eee5d37a-4d66-4bfa-a3df-0ce84fd10afa",
+                "resourcePath": "scripts\\energy_overload\\energy_overload.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "08d3fb96-017e-4669-9304-6b237c4beb49",
             "Value": {
                 "id": "f90a7d7d-90a3-4ce8-bcaa-8611e850cea2",
@@ -139,6 +147,14 @@
             "Value": {
                 "id": "792e7cc4-9ae1-4f71-8191-b9e582c80e97",
                 "resourcePath": "objects\\obj_free_ground\\obj_free_ground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0f703d77-94a3-4f8f-b030-44b32d830a92",
+            "Value": {
+                "id": "f3fcd4ed-cda9-4570-8cdc-c072a294d421",
+                "resourcePath": "objects\\obj_module_battery1\\obj_module_battery1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -180,6 +196,14 @@
                 "id": "1160e0b5-013f-46f8-b616-c19eaa846361",
                 "resourcePath": "sprites\\s_tank2\\s_tank2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "14cf159d-5de1-42eb-99c9-0f985a12f55b",
+            "Value": {
+                "id": "f79b6d2f-6dc8-4878-abb2-7f83a8eec8c0",
+                "resourcePath": "views\\14cf159d-5de1-42eb-99c9-0f985a12f55b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -455,6 +479,14 @@
             }
         },
         {
+            "Key": "3bec64de-42d3-4aee-9780-bf22881c849e",
+            "Value": {
+                "id": "c124f81f-0913-4b93-82b5-ff908001f1f7",
+                "resourcePath": "objects\\obj_m_battery\\obj_m_battery.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c0e827a-9dee-45ba-bec6-746df1f3f17c",
             "Value": {
                 "id": "a11e22dc-87d7-4aaa-8111-451635edb4ac",
@@ -583,6 +615,14 @@
             }
         },
         {
+            "Key": "519e6849-8381-49b9-a921-6759e0c46d9f",
+            "Value": {
+                "id": "3d6af03a-f219-4c38-a8cb-47591a128e45",
+                "resourcePath": "sprites\\s_module_battery1\\s_module_battery1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "52f56d58-77de-482c-a45a-93ae88e89e86",
             "Value": {
                 "id": "2c262ce1-fdc0-4dbd-b37f-900a9d6094e7",
@@ -620,6 +660,14 @@
                 "id": "27c1cee4-6435-4918-a4de-30e958d6486a",
                 "resourcePath": "sprites\\s_human\\s_human.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5947d853-b2d7-4cb9-90b3-a76ab845541a",
+            "Value": {
+                "id": "c050a103-c3b6-47fc-ab7a-2321ba036051",
+                "resourcePath": "views\\5947d853-b2d7-4cb9-90b3-a76ab845541a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1159,6 +1207,14 @@
             }
         },
         {
+            "Key": "a5590fb4-5873-47c4-81b5-0fc5949893ca",
+            "Value": {
+                "id": "896517fa-d782-4887-9694-9f5bac429438",
+                "resourcePath": "scripts\\energy_consuming\\energy_consuming.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a57ef0dd-c5ca-4989-9deb-2d687bca33ea",
             "Value": {
                 "id": "87d391f7-33a6-478d-9c4e-ac9dd8c09a40",
@@ -1543,6 +1599,14 @@
             }
         },
         {
+            "Key": "d8aa06d4-4425-4e20-b7fb-e41be3235b3f",
+            "Value": {
+                "id": "30154582-a5db-4bfd-b052-e3b7d661ee8c",
+                "resourcePath": "scripts\\energy_recount\\energy_recount.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d92185d8-931e-4278-bba9-ea022b3a9cfa",
             "Value": {
                 "id": "018ee5a1-ce37-4370-97d7-ac2fcd8203ef",
@@ -1890,6 +1954,9 @@
         "07b46e60-a669-493e-8095-66ec112dba2a",
         "2917d24b-8831-43e5-ac1a-18ede3366257",
         "bb02be00-d6a7-41a4-8f28-07863e37d97b",
+        "d8aa06d4-4425-4e20-b7fb-e41be3235b3f",
+        "a5590fb4-5873-47c4-81b5-0fc5949893ca",
+        "08ce2554-0b46-4ae0-8807-f81d46104391",
         "439d00e3-03c2-4226-8c83-e8a437c4376e",
         "94578888-96de-4556-8049-1be15d946e10",
         "b1c4bd8b-0efa-4a96-b0dc-ba07fd8487c7"

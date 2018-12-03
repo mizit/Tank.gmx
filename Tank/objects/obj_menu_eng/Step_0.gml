@@ -93,6 +93,7 @@ if (mouse_check_button_pressed(mb_left))
 				var l_item = construct_list[| ds_list_size(construct_list) - 1];
 				item_set_dnd(l_item, 1, cursor_state);
 			}
+			break;
 		}
 		case CURSOR_STATE.WEAPON:
 		{
@@ -101,6 +102,7 @@ if (mouse_check_button_pressed(mb_left))
 				var l_item = weapon_list[| ds_list_size(weapon_list) - 1];
 				item_set_dnd(l_item, 1, cursor_state);
 			}
+			break;
 		}
 		case CURSOR_STATE.SUPPORT:
 		{
@@ -109,6 +111,7 @@ if (mouse_check_button_pressed(mb_left))
 				var l_item = support_list[| ds_list_size(support_list) - 1];
 				item_set_dnd(l_item, 1, cursor_state);
 			}
+			break;
 		}
 		case CURSOR_STATE.ENERGY:
 		{
@@ -118,13 +121,14 @@ if (mouse_check_button_pressed(mb_left))
 				l_pos = 0;
 			}
 			if (window_mouse_get_y() > c_y + energy_edge2_y * mult)
-			{
+			{ 
 				l_pos = 2;
 			}
 			if (energy_arr[l_pos] != noone)
 			{
 				item_set_dnd(energy_arr[l_pos], 1, cursor_state);
 			}
+			break;
 		}
 	}
 }
@@ -141,15 +145,6 @@ for (var i = 0; i < ds_list_size(stock_list); i++)
 }
 surface_reset_target();
 
-///Energy cards
-if (keyboard_check_pressed(vk_up))
-{
-	energy_current++;
-}
-if (keyboard_check_pressed(vk_down))
-{
-	energy_current = max(0, energy_current - 1);
-}
 
 //Отрисовка цифр для отображения запаса энергии
 if (floor(energy_current / 10) > floor(energy_digital / 10))
@@ -239,3 +234,6 @@ if (energy_support < support_digital)
 	tmp.back = 1;
 	ds_list_delete(support_d_list, ds_list_size(support_d_list) - 1);
 }
+
+//перерасчёт энергии
+energy_recount();
